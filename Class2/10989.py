@@ -1,6 +1,7 @@
 # 수 정렬하기
-import sys
-n = int(sys.stdin.readline()) # 핵심1
+import sys # 핵심1
+
+n = int(sys.stdin.readline())
 array = [0]*10001
 for i in range(n):
     num = int(sys.stdin.readline())
