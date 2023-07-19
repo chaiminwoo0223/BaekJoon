@@ -4,6 +4,7 @@ num_1 = sorted(list(map(int, input().split())))
 m = int(input())
 num_2 = list(map(int, input().split()))
 cnt = {} # 핵심
+
 for i in num_1:
     if i in cnt:
         cnt[i] += 1
