@@ -1,6 +1,7 @@
 # 집합
 # 핵심1: sys.stdin.readline().split() --> [' ', ' ', ... , ' ']
 # 핵심2: len(['all']) == 1
+# 핵심3: 집합의 개념
 import sys
 m = int(sys.stdin.readline())
 S = set()
