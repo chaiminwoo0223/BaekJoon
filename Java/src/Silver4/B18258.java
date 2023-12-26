@@ -14,8 +14,8 @@ public class B18258 {
 		Deque<Integer> deque = new LinkedList<>();                                // 데크(덱)
 
 		for (int i = 0; i < n; i++) {
-			StringTokenizer st = new StringTokenizer(br.readLine());              // 토큰 입력
-			String cmd = st.nextToken();                                          // 토큰 추출
+			StringTokenizer st = new StringTokenizer(br.readLine());          // 토큰 입력
+			String cmd = st.nextToken();                                      // 토큰 추출
 			if (cmd.equals("push")) {
 				deque.push(Integer.parseInt(st.nextToken()));
 			}
