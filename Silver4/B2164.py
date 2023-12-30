@@ -1,5 +1,6 @@
 # 카드2
 from collections import deque
+
 n = int(input())
 card = deque(range(1, n+1))
 
