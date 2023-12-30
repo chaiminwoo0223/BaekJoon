@@ -1,5 +1,6 @@
-# 요세푸스 문제
+# 요세푸스 문제 0
 from collections import deque
+
 n, k = map(int, input().split())
 result = []
 queue = deque(range(1, n+1))
