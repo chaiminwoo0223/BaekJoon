@@ -6,24 +6,15 @@ stack = []
 
 for _ in range(n):
     cmd = sys.stdin.readline().rstrip()
-    if "1" in cmd:
+    if cmd.startswith("1"):
         stack.append(int(cmd[2:]))
-    elif "2" in cmd:
-        if stack:
-            print(stack.pop())
-        else:
-            print(-1)
-    elif "3" in cmd:
+    elif cmd.startswith("2"):
+        print(stack.pop() if stack else -1)
+    elif cmd.startswith("3"):
         print(len(stack))
-    elif "4" in cmd:
-        if not stack:
-            print(1)
-        else:
-            print(0)
-    elif "5" in cmd:
-        if stack:
-            print(stack[-1])
-        else:
-            print(-1)
+    elif cmd.startswith("4"):
+        print(1 if not stack else 0)
+    elif cmd.startswith("5"):
+        print(stack[-1] if stack else -1)
     else:
         pass
