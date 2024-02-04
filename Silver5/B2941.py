@@ -6,4 +6,5 @@ croatia = ["c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="]
 
 for croatian in croatia:
     word = word.replace(croatian, '*')
+    
 print(len(word))
