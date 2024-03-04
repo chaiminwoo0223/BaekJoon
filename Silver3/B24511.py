@@ -2,7 +2,6 @@
 from sys import stdin
 from collections import deque
 
-# 입력 처리
 N = int(stdin.readline())
 A = list(map(int, stdin.readline().split()))
 B = list(map(int, stdin.readline().split()))
