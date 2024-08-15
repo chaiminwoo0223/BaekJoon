@@ -2,10 +2,6 @@
 import sys
 
 n = int(sys.stdin.readline())
-count = 0
 
-for i in range(n):
-    count += 1
-
-print(count)
+print(n)
 print(1)
