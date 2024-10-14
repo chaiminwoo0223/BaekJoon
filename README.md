@@ -7,8 +7,6 @@
 - 
 
 ## 자료구조
-1.스택
 - [B11399](https://www.acmicpc.net/problem/11399) [O]
-
-2.딕셔너리
 - [B17219](https://www.acmicpc.net/problem/17219) [O]
+- [B9375](https://www.acmicpc.net/problem/9375)
