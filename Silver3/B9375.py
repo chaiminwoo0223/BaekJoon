@@ -18,4 +18,4 @@ for _ in range(t):
     for category in fashion:
         result *= (fashion[category] + 1) # 핵심
         
-    print(result - 1) # 아무 것도 선택하지 않는 경우 제거
+    print(result - 1) # 아무것도 선택하지 않는 경우 제거
