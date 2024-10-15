@@ -4,7 +4,9 @@
 
 ## 동적 프로그래밍
 - [B2579](https://www.acmicpc.net/problem/2579)
-- 
+
+## 브루트포스 알고리즘
+- [B4673](https://www.acmicpc.net/problem/4673)
 
 ## 자료구조
 - [B11399](https://www.acmicpc.net/problem/11399) [O]
