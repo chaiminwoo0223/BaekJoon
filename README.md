@@ -15,3 +15,6 @@
 - [B11399](https://www.acmicpc.net/problem/11399) [O]
 - [B17219](https://www.acmicpc.net/problem/17219) [O]
 - [B9375](https://www.acmicpc.net/problem/9375)
+
+## 구현
+- [B17413](https://www.acmicpc.net/problem/B17413) [O]
