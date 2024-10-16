@@ -1,6 +1,7 @@
 ## 그리디 알고리즘
 - [B11399](https://www.acmicpc.net/problem/11399) 
 - [B1931](https://www.acmicpc.net/problem/1931)
+- [B1541](https://www.acmicpc.net/problem/1541)
 
 ## 동적 프로그래밍
 - [B2579](https://www.acmicpc.net/problem/2579)
@@ -17,4 +18,4 @@
 - [B9375](https://www.acmicpc.net/problem/9375)
 
 ## 구현
-- [B17413](https://www.acmicpc.net/problem/B17413) [O]
+- [B17413](https://www.acmicpc.net/problem/17413) [O]
