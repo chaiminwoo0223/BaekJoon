@@ -14,6 +14,7 @@
 
 ## 이분 탐색
 - [B2805](https://www.acmicpc.net/problem/2805)
+- [B2110](https://www.acmicpc.net/problem/2110)
 
 ## 자료구조
 - [B11399](https://www.acmicpc.net/problem/11399) [O]
