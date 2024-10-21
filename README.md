@@ -11,6 +11,7 @@
 ## 브루트포스 알고리즘
 - [B4673](https://www.acmicpc.net/problem/4673)
 - [B2309](https://www.acmicpc.net/problem/2309)
+- [B1065](https://www.acmicpc.net/problem/1065) [O]
 
 ## 이분 탐색
 - [B2805](https://www.acmicpc.net/problem/2805)
