@@ -4,6 +4,7 @@
 - [B1541](https://www.acmicpc.net/problem/1541)
 - [B5585](https://www.acmicpc.net/problem/5585) [O]
 - [B1026](https://www.acmicpc.net/problem/1026) [O]
+- [B2217](https://www.acmicpc.net/problem/2217)
 
 ## 동적 프로그래밍
 - [B2579](https://www.acmicpc.net/problem/2579)
