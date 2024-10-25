@@ -6,6 +6,7 @@
 - [B1026](https://www.acmicpc.net/problem/1026) [O]
 - [B2217](https://www.acmicpc.net/problem/2217)
 - [B10000](https://www.acmicpc.net/problem/10000)
+- [B1715](https://www.acmicpc.net/problem/1715)
 
 ## 동적 프로그래밍
 - [B2579](https://www.acmicpc.net/problem/2579)
