@@ -11,6 +11,7 @@
 - [B2579](https://www.acmicpc.net/problem/2579)
 - [B1149](https://www.acmicpc.net/problem/1149)
 - [B1053](https://www.acmicpc.net/problem/1053)
+- [B1932](https://www.acmicpc.net/problem/1932)
 
 ## 브루트포스 알고리즘
 - [B4673](https://www.acmicpc.net/problem/4673)
