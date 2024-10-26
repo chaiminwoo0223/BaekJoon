@@ -35,6 +35,7 @@
 - [B2075](https://www.acmicpc.net/problem/2075)
 - [B14235](https://www.acmicpc.net/problem/14235) [O]
 - [B15903](https://www.acmicpc.net/problem/15903) [O]
+- [B23757](https://www.acmicpc.net/problem/23757) [O]
 
 ## 구현
 - [B17413](https://www.acmicpc.net/problem/17413) [O]
