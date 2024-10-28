@@ -23,6 +23,7 @@
 - [B1120](https://www.acmicpc.net/problem/1120)
 - [B1476](https://www.acmicpc.net/problem/1476)
 - [B2003](https://www.acmicpc.net/problem/2003)
+- [B1075](https://www.acmicpc.net/problem/1075) [O]
 
 ## 이분 탐색
 - [B2805](https://www.acmicpc.net/problem/2805)
