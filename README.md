@@ -46,3 +46,4 @@
 ## 구현
 - [B17413](https://www.acmicpc.net/problem/17413) [O]
 - [B2504](https://www.acmicpc.net/problem/2504)
+- [B1110](https://www.acmicpc.net/problem/1110) [O]
