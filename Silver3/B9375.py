@@ -4,18 +4,16 @@ import sys
 t = int(sys.stdin.readline())
 
 for _ in range(t):
-    n = int(sys.stdin.readline())
-    result = 1
-    fashion = {}
-
-    for _ in range(n):
-        item, category = map(str, sys.stdin.readline().strip().split())
-        if category in fashion:
-            fashion[category] += 1
+    clothes = {}
+    for _ in range(int(sys.stdin.readline())):
+        item, category = map(str, sys.stdin.readline().split())
+        if category in clothes:
+            clothes[category] += 1
         else:
-            fashion[category] = 1
+            clothes[category] = 1
+    
+    count = 1
+    for category in clothes:
+        count *= (clothes[category] + 1) # 알몸도 옷이라고 생각함
 
-    for category in fashion:
-        result *= (fashion[category] + 1) # 핵심
-        
-    print(result - 1) # 아무것도 선택하지 않는 경우 제거
+    print(count - 1) # 아무것도 선택하지 않는 경우 제거
