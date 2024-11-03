@@ -12,7 +12,7 @@ for number in numbers:
 for _ in range(n-1):
     numbers = list(map(int, sys.stdin.readline().split()))
     for number in numbers:
-        if heap[0] < number:
+        if heap[0] < number: # 핵심
             heapq.heappushpop(heap, number)
 
 print(heap[0])
