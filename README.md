@@ -1,13 +1,8 @@
 ## 그리디 알고리즘
-- [B11399](https://www.acmicpc.net/problem/11399) 
-- [B1931](https://www.acmicpc.net/problem/1931)
 - [B1541](https://www.acmicpc.net/problem/1541)
-- [B5585](https://www.acmicpc.net/problem/5585) [O]
-- [B1026](https://www.acmicpc.net/problem/1026) [O]
 - [B2217](https://www.acmicpc.net/problem/2217)
-- [B10000](https://www.acmicpc.net/problem/10000)
+- [B10000](https://www.acmicpc.net/problem/1000)
 - [B1715](https://www.acmicpc.net/problem/1715)
-- [B1417](https://www.acmicpc.net/problem/1417) [O]
 - [B10162](https://www.acmicpc.net/problem/10162)
 
 ## 동적 프로그래밍
@@ -20,11 +15,9 @@
 ## 브루트포스 알고리즘
 - [B4673](https://www.acmicpc.net/problem/4673)
 - [B2309](https://www.acmicpc.net/problem/2309)
-- [B1065](https://www.acmicpc.net/problem/1065) [O]
 - [B1120](https://www.acmicpc.net/problem/1120)
 - [B1476](https://www.acmicpc.net/problem/1476)
 - [B2003](https://www.acmicpc.net/problem/2003)
-- [B1075](https://www.acmicpc.net/problem/1075) [O]
 - [B6064](https://www.acmicpc.net/problem/6064)
 - [B1051](https://www.acmicpc.net/problem/1051)
 
@@ -34,17 +27,9 @@
 - [B2512](https://www.acmicpc.net/problem/2512)
 
 ## 자료구조
-- [B11399](https://www.acmicpc.net/problem/11399) [O]
-- [B17219](https://www.acmicpc.net/problem/17219) [O]
 - [B9375](https://www.acmicpc.net/problem/9375)
-- [B1302](https://www.acmicpc.net/problem/1302) [O]
 - [B2075](https://www.acmicpc.net/problem/2075)
-- [B14235](https://www.acmicpc.net/problem/14235) [O]
-- [B15903](https://www.acmicpc.net/problem/15903) [O]
-- [B23757](https://www.acmicpc.net/problem/23757) [O]
 - [B19638](https://www.acmicpc.net/problem/19638)
 
 ## 구현
-- [B17413](https://www.acmicpc.net/problem/17413) [O]
 - [B2504](https://www.acmicpc.net/problem/2504)
-- [B1110](https://www.acmicpc.net/problem/1110) [O]
