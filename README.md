@@ -1,7 +1,5 @@
 ## 그리디 알고리즘
-- [B1541](https://www.acmicpc.net/problem/1541)
 - [B2217](https://www.acmicpc.net/problem/2217)
-- [B10000](https://www.acmicpc.net/problem/1000)
 - [B1715](https://www.acmicpc.net/problem/1715)
 - [B10162](https://www.acmicpc.net/problem/10162)
 
