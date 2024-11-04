@@ -4,6 +4,7 @@
 - [B10162](https://www.acmicpc.net/problem/10162)
 
 ## 동적 프로그래밍
+- [B1912](https://www.acmicpc.net/problem/1912)
 - [B2579](https://www.acmicpc.net/problem/2579)
 - [B1149](https://www.acmicpc.net/problem/1149)
 - [B1053](https://www.acmicpc.net/problem/1053)
@@ -28,7 +29,7 @@
 - [B9375](https://www.acmicpc.net/problem/9375)
 - [B2075](https://www.acmicpc.net/problem/2075)
 - [B19638](https://www.acmicpc.net/problem/19638)
-- [B5430](https://www.acmicpc.net/problem/5430)
 
 ## 구현
 - [B2504](https://www.acmicpc.net/problem/2504)
+- [B5430](https://www.acmicpc.net/problem/5430)
