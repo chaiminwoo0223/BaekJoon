@@ -30,6 +30,7 @@
 - [B9375](https://www.acmicpc.net/problem/9375)
 - [B2075](https://www.acmicpc.net/problem/2075)
 - [B19638](https://www.acmicpc.net/problem/19638)
+- [B1406](https://www.acmicpc.net/problem/1406)
 
 ## 구현
 - [B2504](https://www.acmicpc.net/problem/2504)
