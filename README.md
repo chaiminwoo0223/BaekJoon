@@ -25,6 +25,7 @@
 - [B2805](https://www.acmicpc.net/problem/2805)
 - [B2110](https://www.acmicpc.net/problem/2110)
 - [B2512](https://www.acmicpc.net/problem/2512)
+- [B7795](https://www.acmicpc.net/problem/7795)
 
 ## 자료구조
 - [B9375](https://www.acmicpc.net/problem/9375)
