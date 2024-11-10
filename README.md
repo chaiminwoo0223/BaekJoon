@@ -3,6 +3,7 @@
 - [B1715](https://www.acmicpc.net/problem/1715)
 - [B10162](https://www.acmicpc.net/problem/10162)
 - [B1789](https://www.acmicpc.net/problem/1789)
+- [B6550](https://www.acmicpc.net/problem/6550)
 
 ## 동적 프로그래밍
 - [B1912](https://www.acmicpc.net/problem/1912)
