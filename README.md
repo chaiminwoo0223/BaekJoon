@@ -40,3 +40,4 @@
 
 ## DFS/BFS
 - [B1260](https://www.acmicpc.net/problem/1260)
+- [B2178](https://www.acmicpc.net/problem/2178)
