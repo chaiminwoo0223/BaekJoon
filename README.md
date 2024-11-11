@@ -5,7 +5,7 @@
 - [B1789](https://www.acmicpc.net/problem/1789)
 - [B6550](https://www.acmicpc.net/problem/6550)
 
-## 동적 프로그래밍
+## 다이나믹 프로그래밍
 - [B1912](https://www.acmicpc.net/problem/1912)
 - [B2579](https://www.acmicpc.net/problem/2579)
 - [B1149](https://www.acmicpc.net/problem/1149)
@@ -43,3 +43,4 @@
 - [B1260](https://www.acmicpc.net/problem/1260)
 - [B2178](https://www.acmicpc.net/problem/2178)
 - [B2606](https://www.acmicpc.net/problem/2606) [O]
+- [B2667](https://www.acmicpc.net/problem/2667)
