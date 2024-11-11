@@ -5,7 +5,7 @@ n = int(sys.stdin.readline())
 count = 0
 
 while n != 0:
-    if n > 3:
+    if n >= 3:
         n -= 3
     else:
         n -= 1
