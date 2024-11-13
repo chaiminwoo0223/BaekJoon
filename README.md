@@ -31,7 +31,6 @@
 - [B2110](https://www.acmicpc.net/problem/2110)
 - [B2512](https://www.acmicpc.net/problem/2512)
 - [B7795](https://www.acmicpc.net/problem/7795)
-- [B1822](https://www.acmicpc.net/problem/1822)
 
 ## 자료구조
 - [B9375](https://www.acmicpc.net/problem/9375)
@@ -39,6 +38,7 @@
 - [B19638](https://www.acmicpc.net/problem/19638)
 - [B1406](https://www.acmicpc.net/problem/1406)
 - [B10799](https://www.acmicpc.net/problem/10799)
+- [B1822](https://www.acmicpc.net/problem/1822)
 
 ## 구현
 - [B2504](https://www.acmicpc.net/problem/2504)
