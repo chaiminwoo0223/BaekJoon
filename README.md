@@ -49,3 +49,4 @@
 - [B2178](https://www.acmicpc.net/problem/2178)
 - [B2606](https://www.acmicpc.net/problem/2606) [O]
 - [B2667](https://www.acmicpc.net/problem/2667)
+- [B1012](https://www.acmicpc.net/problem/1012)
