@@ -7,7 +7,7 @@ for _ in range(t):
     n = int(sys.stdin.readline())
     numbers = [1, 1, 1, 2, 2] + [0] * 96
 
-    if n < 4:
+    if n < 5:
         print(numbers[n-1])
     else:
         for i in range(5, n+1):
