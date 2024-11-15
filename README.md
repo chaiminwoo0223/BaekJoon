@@ -37,6 +37,7 @@
 ## 구현
 - [B2504](https://www.acmicpc.net/problem/2504)
 - [B5430](https://www.acmicpc.net/problem/5430)
+- [B1475](https://www.acmicpc.net/problem/1475)
 
 ## 이분 탐색
 - [B2805](https://www.acmicpc.net/problem/2805)
