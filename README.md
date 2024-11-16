@@ -26,6 +26,13 @@
 - [B18312](https://www.acmicpc.net/problem/18312) [O]
 - [B1969](https://www.acmicpc.net/problem/1969)
 
+## 구현
+- [B2504](https://www.acmicpc.net/problem/2504)
+- [B5430](https://www.acmicpc.net/problem/5430)
+- [B1475](https://www.acmicpc.net/problem/1475)
+- [B2167](https://www.acmicpc.net/problem/2167)
+- [B5525](https://www.acmicpc.net/problem/5525)
+
 ## 그리디 알고리즘
 - [B2217](https://www.acmicpc.net/problem/2217)
 - [B1715](https://www.acmicpc.net/problem/1715)
@@ -33,12 +40,6 @@
 - [B1789](https://www.acmicpc.net/problem/1789)
 - [B6550](https://www.acmicpc.net/problem/6550)
 - [B1439](https://www.acmicpc.net/problem/1439)
-
-## 구현
-- [B2504](https://www.acmicpc.net/problem/2504)
-- [B5430](https://www.acmicpc.net/problem/5430)
-- [B1475](https://www.acmicpc.net/problem/1475)
-- [B2167](https://www.acmicpc.net/problem/2167)
 
 ## 이분 탐색
 - [B2805](https://www.acmicpc.net/problem/2805)
