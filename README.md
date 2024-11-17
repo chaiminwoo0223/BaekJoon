@@ -5,6 +5,7 @@
 - [B2667](https://www.acmicpc.net/problem/2667)
 - [B1012](https://www.acmicpc.net/problem/1012)
 - [B11724](https://www.acmicpc.net/problem/11724)
+- [B2644](https://www.acmicpc.net/problem/2644)
 
 ## 다이나믹 프로그래밍
 - [B1912](https://www.acmicpc.net/problem/1912)
