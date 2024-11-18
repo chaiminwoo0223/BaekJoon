@@ -51,6 +51,7 @@
 - [B1439](https://www.acmicpc.net/problem/1439)
 - [B2847](https://www.acmicpc.net/problem/2847)
 - [B14916](https://www.acmicpc.net/problem/14916)
+- [B1049](https://www.acmicpc.net/problem/1049)
 
 ## 이분 탐색
 - [B2805](https://www.acmicpc.net/problem/2805)
