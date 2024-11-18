@@ -40,6 +40,7 @@
 - [B1475](https://www.acmicpc.net/problem/1475)
 - [B2167](https://www.acmicpc.net/problem/2167)
 - [B5525](https://www.acmicpc.net/problem/5525)
+- [B1748](https://www.acmicpc.net/problem/1748)
 
 ## 그리디 알고리즘
 - [B2217](https://www.acmicpc.net/problem/2217)
