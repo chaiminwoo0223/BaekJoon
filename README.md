@@ -57,6 +57,7 @@
 - [B1449](https://www.acmicpc.net/problem/1449)
 - [B13305](https://www.acmicpc.net/problem/13305)
 - [B1213](https://www.acmicpc.net/problem/1213)
+- [B1138](https://www.acmicpc.net/problem/1138)
 
 ## 자료구조
 - [B9375](https://www.acmicpc.net/problem/9375)
