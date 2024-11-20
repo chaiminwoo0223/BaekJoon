@@ -53,12 +53,8 @@
 - [B14916](https://www.acmicpc.net/problem/14916)
 - [B1049](https://www.acmicpc.net/problem/1049)
 - [B10610](https://www.acmicpc.net/problem/10610)
-
-## 이분 탐색
-- [B2805](https://www.acmicpc.net/problem/2805)
-- [B2110](https://www.acmicpc.net/problem/2110)
-- [B2512](https://www.acmicpc.net/problem/2512)
-- [B7795](https://www.acmicpc.net/problem/7795)
+- [B12904](https://www.acmicpc.net/problem/12904)
+- [B1449](https://www.acmicpc.net/problem/1449)
 
 ## 자료구조
 - [B9375](https://www.acmicpc.net/problem/9375)
@@ -67,3 +63,9 @@
 - [B1406](https://www.acmicpc.net/problem/1406)
 - [B10799](https://www.acmicpc.net/problem/10799)
 - [B1822](https://www.acmicpc.net/problem/1822)
+
+## 이분 탐색
+- [B2805](https://www.acmicpc.net/problem/2805)
+- [B2110](https://www.acmicpc.net/problem/2110)
+- [B2512](https://www.acmicpc.net/problem/2512)
+- [B7795](https://www.acmicpc.net/problem/7795)
