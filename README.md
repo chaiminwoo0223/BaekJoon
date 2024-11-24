@@ -60,12 +60,12 @@
 - [B1138](https://www.acmicpc.net/problem/1138)
 
 ## 자료구조
-- [B9375](https://www.acmicpc.net/problem/9375)
-- [B2075](https://www.acmicpc.net/problem/2075)
 - [B19638](https://www.acmicpc.net/problem/19638)
 - [B1406](https://www.acmicpc.net/problem/1406)
 - [B10799](https://www.acmicpc.net/problem/10799)
 - [B1822](https://www.acmicpc.net/problem/1822)
+- [B9375](https://www.acmicpc.net/problem/9375)
+- [B2075](https://www.acmicpc.net/problem/2075)
 
 ## 이분 탐색
 - [B2805](https://www.acmicpc.net/problem/2805)

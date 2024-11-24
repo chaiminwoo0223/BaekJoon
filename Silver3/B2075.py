@@ -1,18 +1,17 @@
 # N번째 큰 수
+# 최댓값, 최솟값 -> 최소힙
 import sys
 import heapq
 
 n = int(sys.stdin.readline())
 heap = []
 
-numbers = list(map(int, sys.stdin.readline().split()))
-for number in numbers:
-    heapq.heappush(heap, number)
-
-for _ in range(n-1):
+for _ in range(n):
     numbers = list(map(int, sys.stdin.readline().split()))
     for number in numbers:
-        if heap[0] < number: # 핵심
+        if len(heap) != n:
+            heapq.heappush(heap, number)
+        else:
             heapq.heappushpop(heap, number)
 
 print(heap[0])
