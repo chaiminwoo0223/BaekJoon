@@ -29,7 +29,6 @@
 - [B2003](https://www.acmicpc.net/problem/2003)
 - [B6064](https://www.acmicpc.net/problem/6064)
 - [B1051](https://www.acmicpc.net/problem/1051)
-- [B18312](https://www.acmicpc.net/problem/18312) [O]
 - [B1969](https://www.acmicpc.net/problem/1969)
 - [B2422](https://www.acmicpc.net/problem/2422)
 - [B1057](https://www.acmicpc.net/problem/1057)
@@ -43,7 +42,6 @@
 - [B1748](https://www.acmicpc.net/problem/1748)
 
 ## 그리디 알고리즘
-- [B2217](https://www.acmicpc.net/problem/2217)
 - [B1715](https://www.acmicpc.net/problem/1715)
 - [B10162](https://www.acmicpc.net/problem/10162)
 - [B1789](https://www.acmicpc.net/problem/1789)
@@ -58,14 +56,15 @@
 - [B13305](https://www.acmicpc.net/problem/13305)
 - [B1213](https://www.acmicpc.net/problem/1213)
 - [B1138](https://www.acmicpc.net/problem/1138)
+- [B2217](https://www.acmicpc.net/problem/2217) [X]
 
 ## 자료구조
 - [B19638](https://www.acmicpc.net/problem/19638)
 - [B1406](https://www.acmicpc.net/problem/1406)
 - [B10799](https://www.acmicpc.net/problem/10799)
 - [B1822](https://www.acmicpc.net/problem/1822)
-- [B9375](https://www.acmicpc.net/problem/9375)
-- [B2075](https://www.acmicpc.net/problem/2075)
+- [B9375](https://www.acmicpc.net/problem/9375) [X]
+- [B2075](https://www.acmicpc.net/problem/2075) [X]
 
 ## 이분 탐색
 - [B2805](https://www.acmicpc.net/problem/2805)

@@ -1,37 +1,21 @@
 # 시각
 import sys
 
-n, k = sys.stdin.readline().split()
-hour = list(range(int(n)+1))
-minute = list(range(60))
-second = list(range(60))
-hours = []
-minutes = []
-seconds = []
-count = 0
-
-for h in hour:
-    if len(str(h)) == 1:
-        hours.append("0"+ str(h))
+def time(t):
+    if len(str(t)) == 1:
+        return "0" + str(t)
     else:
-        hours.append(str(h))
+        return str(t)
 
-for m in minute:
-    if len(str(m)) == 1:
-        minutes.append("0"+ str(m))
-    else:
-        minutes.append(str(m))
+n, k = map(int, sys.stdin.readline().split())
+result = 0
 
-for s in second:
-    if len(str(s)) == 1:
-        seconds.append("0"+ str(s))
-    else:
-        seconds.append(str(s))
-
-for h in hours:
-    for m in minutes:
-        for s in seconds:
-            if k in h or k in m or k in s:
-                count += 1
-                
-print(count)
+for h in range(n+1):
+    hour = time(h)
+    for m in range(60):
+        minute = time(m)
+        for s in range(60):
+            second = time(s)
+            if str(k) in hour or str(k) in minute or str(k) in second:
+                result += 1
+print(result)
