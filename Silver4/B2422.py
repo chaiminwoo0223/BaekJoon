@@ -1,21 +1,15 @@
 # 한윤정이 이탈리아에 가서 아이스크림을 사먹는데
-# 2차원 리스트
-from itertools import combinations
+# tuple
 import sys
 
 n, m = map(int, sys.stdin.readline().split())
-combination = combinations(list(range(1, n+1)), 3)
-t = [[False] * (n+1) for _ in range(n+1)]
+no = set(tuple(sorted(map(int, sys.stdin.readline().split()))) for _ in range(m)) # 핵심
 count = 0
 
-for _ in range(m):
-    a, b = map(int, sys.stdin.readline().split())
-    t[a][b] = True
-    t[b][a] = True
-
-for c in combination:
-    i, j, k = c
-    if not t[i][j] and not t[j][k] and not t[i][k]:
-        count += 1
+for i in range(1, n-1):
+    for j in range(i+1, n):
+        for k in range(j+1, n+1):
+            if (i, j) not in no and (j, k) not in no and (i, k) not in no:
+                count += 1
 
 print(count)
