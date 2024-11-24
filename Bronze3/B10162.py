@@ -2,17 +2,20 @@
 import sys
 
 t = int(sys.stdin.readline())
-a = 300
-b = 60
-c = 10
-button = ["", "", ""]
+button = [0, 0, 0]
 
-if t % c != 0:
-    print(-1)
+while t > 0:
+    if t - 300 >= 0:
+        t -= 300
+        button[0] += 1
+    elif t - 60 >= 0:
+        t -= 60
+        button[1] += 1
+    else:
+        t -= 10
+        button[2] += 1
+
+if t >= 0:
+    print(*button)
 else:
-    button[0] = str(t // a)
-    t %= a
-    button[1] = str(t // b)
-    t %= b
-    button[2] = str(t // c)
-    print(" ".join(button))
+    print(-1)
