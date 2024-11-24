@@ -36,10 +36,10 @@
 ## 구현
 - [B2504](https://www.acmicpc.net/problem/2504)
 - [B5430](https://www.acmicpc.net/problem/5430)
-- [B1475](https://www.acmicpc.net/problem/1475)
 - [B2167](https://www.acmicpc.net/problem/2167)
 - [B5525](https://www.acmicpc.net/problem/5525)
 - [B1748](https://www.acmicpc.net/problem/1748)
+- [B1475](https://www.acmicpc.net/problem/1475) [X]
 
 ## 그리디 알고리즘
 - [B1715](https://www.acmicpc.net/problem/1715)

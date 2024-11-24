@@ -1,10 +1,10 @@
 # 방 번호
 import sys
 
-n = int(sys.stdin.readline())
+n = sys.stdin.readline().rstrip()
 numbers = [0] * 10 # 핵심
 
-for i in str(n):
+for i in n:
     number = int(i)
     if number in (6, 9):
         if numbers[6] == numbers[9]:
