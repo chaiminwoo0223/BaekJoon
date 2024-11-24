@@ -2,15 +2,14 @@
 from itertools import combinations
 import sys
 
-dwarfs = []
+dwarfs = [int(sys.stdin.readline()) for _ in range(9)]
+combination = combinations(dwarfs, 7)
+result = 0
 
-for _ in range(9):
-    dwarfs.append(int(sys.stdin.readline()))
-
-for combination in combinations(dwarfs, 7):
-    if sum(combination) == 100:
-        dwarfs = combination
+for c in combination:
+    if sum(c) == 100:
+        result = sorted(c)
         break
 
-for dwarf in sorted(dwarfs):
-    print(dwarf)
+for r in result:
+    print(r)
