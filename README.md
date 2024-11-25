@@ -20,6 +20,7 @@
 - [B17626](https://www.acmicpc.net/problem/17626)
 - [B2193](https://www.acmicpc.net/problem/2193)
 - [B11052](https://www.acmicpc.net/problem/11052)
+- [B11057](https://www.acmicpc.net/problem/11057)
 
 ## 브루트포스 알고리즘
 - [B4673](https://www.acmicpc.net/problem/4673)
