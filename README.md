@@ -7,6 +7,7 @@
 - [B11724](https://www.acmicpc.net/problem/11724)
 - [B2644](https://www.acmicpc.net/problem/2644)
 - [B1697](https://www.acmicpc.net/problem/1697)
+- [B11403](https://www.acmicpc.net/problem/11403)
 
 ## 다이나믹 프로그래밍
 - [B1912](https://www.acmicpc.net/problem/1912)
@@ -60,7 +61,6 @@
 - [B19638](https://www.acmicpc.net/problem/19638)
 - [B1406](https://www.acmicpc.net/problem/1406)
 - [B10799](https://www.acmicpc.net/problem/10799)
-- [B1822](https://www.acmicpc.net/problem/1822)
 - [B9375](https://www.acmicpc.net/problem/9375) [X]
 - [B2075](https://www.acmicpc.net/problem/2075) [X]
 
