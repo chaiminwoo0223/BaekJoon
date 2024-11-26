@@ -8,6 +8,7 @@
 - [B2644](https://www.acmicpc.net/problem/2644)
 - [B1697](https://www.acmicpc.net/problem/1697)
 - [B11403](https://www.acmicpc.net/problem/11403)
+- [B9372](https://www.acmicpc.net/problem/9372) [O]
 
 ## 다이나믹 프로그래밍
 - [B1912](https://www.acmicpc.net/problem/1912)
