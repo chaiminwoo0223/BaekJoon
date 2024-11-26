@@ -47,13 +47,13 @@
 - [B1439](https://www.acmicpc.net/problem/1439)
 - [B2847](https://www.acmicpc.net/problem/2847)
 - [B1049](https://www.acmicpc.net/problem/1049)
-- [B10610](https://www.acmicpc.net/problem/10610)
 - [B12904](https://www.acmicpc.net/problem/12904)
 - [B1449](https://www.acmicpc.net/problem/1449)
 - [B13305](https://www.acmicpc.net/problem/13305)
 - [B1213](https://www.acmicpc.net/problem/1213)
 - [B1138](https://www.acmicpc.net/problem/1138)
 - [B2217](https://www.acmicpc.net/problem/2217) [X]
+- [B10610](https://www.acmicpc.net/problem/10610) [X]
 
 ## 자료구조
 - [B19638](https://www.acmicpc.net/problem/19638)
