@@ -22,6 +22,7 @@
 - [B2193](https://www.acmicpc.net/problem/2193)
 - [B11052](https://www.acmicpc.net/problem/11052)
 - [B11057](https://www.acmicpc.net/problem/11057)
+- [B2167](https://www.acmicpc.net/problem/2167) [X]
 
 ## 브루트포스 알고리즘
 - [B4673](https://www.acmicpc.net/problem/4673)
@@ -37,8 +38,6 @@
 ## 구현
 - [B2504](https://www.acmicpc.net/problem/2504)
 - [B5430](https://www.acmicpc.net/problem/5430)
-- [B2167](https://www.acmicpc.net/problem/2167)
-- [B1748](https://www.acmicpc.net/problem/1748)
 - [B1475](https://www.acmicpc.net/problem/1475) [X]
 - [B5525](https://www.acmicpc.net/problem/5525) [X]
 

@@ -1,4 +1,5 @@
 # 2차원 배열의 합
+# 다이나믹 프로그래밍
 import sys
 
 n, m = map(int, sys.stdin.readline().split())
