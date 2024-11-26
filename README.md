@@ -46,7 +46,6 @@
 - [B1715](https://www.acmicpc.net/problem/1715)
 - [B1439](https://www.acmicpc.net/problem/1439)
 - [B2847](https://www.acmicpc.net/problem/2847)
-- [B14916](https://www.acmicpc.net/problem/14916)
 - [B1049](https://www.acmicpc.net/problem/1049)
 - [B10610](https://www.acmicpc.net/problem/10610)
 - [B12904](https://www.acmicpc.net/problem/12904)
