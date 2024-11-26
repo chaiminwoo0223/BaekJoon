@@ -44,7 +44,6 @@
 
 ## 그리디 알고리즘
 - [B1715](https://www.acmicpc.net/problem/1715)
-- [B6550](https://www.acmicpc.net/problem/6550)
 - [B1439](https://www.acmicpc.net/problem/1439)
 - [B2847](https://www.acmicpc.net/problem/2847)
 - [B14916](https://www.acmicpc.net/problem/14916)
