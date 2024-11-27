@@ -12,6 +12,7 @@
 
 ## 다이나믹 프로그래밍
 - [B11660](https://www.acmicpc.net/problem/11660)
+- [B9465](https://www.acmicpc.net/problem/9465)
 - [B1912](https://www.acmicpc.net/problem/1912)
 - [B2579](https://www.acmicpc.net/problem/2579)
 - [B1149](https://www.acmicpc.net/problem/1149)
