@@ -28,7 +28,6 @@
 ## 브루트포스 알고리즘
 - [B4673](https://www.acmicpc.net/problem/4673)
 - [B1120](https://www.acmicpc.net/problem/1120)
-- [B1476](https://www.acmicpc.net/problem/1476)
 - [B2003](https://www.acmicpc.net/problem/2003)
 - [B6064](https://www.acmicpc.net/problem/6064)
 - [B1051](https://www.acmicpc.net/problem/1051)

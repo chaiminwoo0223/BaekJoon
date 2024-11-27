@@ -2,12 +2,13 @@
 import sys
 
 e, s, m = map(int, sys.stdin.readline().split())
-year = 1
+x, y, z = 0, 0, 0
+year = 0
 
-while True:
-    if (year - e) % 15 == 0 and (year - s) % 28 == 0 and (year - m) % 19 == 0:
-        break
-    else:
-        year += 1
+while x != e or y != s or z != m:
+    year += 1
+    x = x % 15 + 1
+    y = y % 28 + 1
+    z = z % 19 + 1
 
 print(year)
