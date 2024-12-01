@@ -2,16 +2,20 @@
 import sys
 
 n = sys.stdin.readline().rstrip()
-numbers = [0] * 10 # 핵심
+counter = {0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0}
+count = 0
 
 for i in n:
     number = int(i)
     if number in (6, 9):
-        if numbers[6] == numbers[9]:
-            numbers[6] += 1
+        if counter[6] == counter[9]:
+            counter[6] += 1
         else:
-            numbers[9] += 1
+            counter[9] += 1
     else:
-        numbers[number] += 1
+        counter[number] += 1
 
-print(max(numbers))
+for c in counter:
+    if counter[c] > count:
+        count = counter[c]
+print(count)
