@@ -1,17 +1,18 @@
 # N번째 큰 수
-# 최댓값, 최솟값 -> 최소힙
+# 최소힙
+# 메모리초과 해결 -> 입력 데이터를 저장하지 말고 처리해야 함
 import sys
 import heapq
 
 n = int(sys.stdin.readline())
 heap = []
 
-for _ in range(n):
+for i in range(n):
     numbers = list(map(int, sys.stdin.readline().split()))
     for number in numbers:
-        if len(heap) != n:
-            heapq.heappush(heap, number)
-        else:
+        if len(heap) == n:
             heapq.heappushpop(heap, number)
-
-print(heap[0])
+        else:
+            heapq.heappush(heap, number)
+    
+print(heapq.heappop(heap))
