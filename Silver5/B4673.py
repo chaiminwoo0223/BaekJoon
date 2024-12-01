@@ -1,17 +1,12 @@
 # 셀프 넘버
-# 속도: 리스트 <<< 집합
-def d(number):
-    result = number
-    for j in str(number):
-        result += int(j)
-    return result
-
-numbers = set(range(1, 10000))
-results = set()
+numbers = list(range(1, 10001))
+result = set()
 
 for number in numbers:
-    results.add(d(number))
+    for i in str(number):
+        number += int(i)
+    if number not in result and number <= 10000:
+        result.add(number)
 
-# 셀프 넘버
-for number in sorted(numbers-results):
-    print(number)
+for r in sorted(set(numbers) - result):
+    print(r)
