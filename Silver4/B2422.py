@@ -1,11 +1,15 @@
 # 한윤정이 이탈리아에 가서 아이스크림을 사먹는데
-# tuple
+# 집합과 tuple
 import sys
 
 n, m = map(int, sys.stdin.readline().split())
-no = set(tuple(sorted(map(int, sys.stdin.readline().split()))) for _ in range(m)) # 핵심
+no = set()
 count = 0
 
+for _ in range(m):
+    no.add(tuple(sorted(map(int, sys.stdin.readline().split()))))
+
+# 완전 탐색
 for i in range(1, n-1):
     for j in range(i+1, n):
         for k in range(j+1, n+1):
