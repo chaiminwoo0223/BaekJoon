@@ -32,10 +32,10 @@
 - [B1051](https://www.acmicpc.net/problem/1051)
 - [B1969](https://www.acmicpc.net/problem/1969)
 - [B1057](https://www.acmicpc.net/problem/1057)
-- [B2003](https://www.acmicpc.net/problem/2003) [X]
 - [B4673](https://www.acmicpc.net/problem/4673) [X]
 - [B1120](https://www.acmicpc.net/problem/1120) [X]
 - [B2422](https://www.acmicpc.net/problem/2422) [X]
+- [B2003](https://www.acmicpc.net/problem/2003) [X]
 
 ## 구현
 - [B2504](https://www.acmicpc.net/problem/2504)
