@@ -27,6 +27,7 @@
 - [B11052](https://www.acmicpc.net/problem/11052)
 - [B11057](https://www.acmicpc.net/problem/11057)
 - [B2167](https://www.acmicpc.net/problem/2167) [X]
+- [B11051](https://www.acmicpc.net/problem/11051) [O]
 
 ## 브루트포스 알고리즘
 - [B6064](https://www.acmicpc.net/problem/6064)
