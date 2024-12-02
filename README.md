@@ -30,6 +30,7 @@
 - [B11051](https://www.acmicpc.net/problem/11051) [O]
 
 ## 브루트포스 알고리즘
+- [B30804](https://www.acmicpc.net/problem/30804)
 - [B6064](https://www.acmicpc.net/problem/6064)
 - [B1051](https://www.acmicpc.net/problem/1051)
 - [B1969](https://www.acmicpc.net/problem/1969)
