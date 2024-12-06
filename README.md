@@ -10,6 +10,7 @@
 - [B11403](https://www.acmicpc.net/problem/11403)
 - [B9372](https://www.acmicpc.net/problem/9372) [O]
 - [B1389](https://www.acmicpc.net/problem/1389)
+- [B4963](https://www.acmicpc.net/problem/4963)
 
 ## 다이나믹 프로그래밍
 - [B11660](https://www.acmicpc.net/problem/11660)
