@@ -27,10 +27,11 @@
 - [B9657](https://www.acmicpc.net/problem/9657)
 - [B17626](https://www.acmicpc.net/problem/17626)
 - [B2193](https://www.acmicpc.net/problem/2193)
-- [B11052](https://www.acmicpc.net/problem/11052)
 - [B11057](https://www.acmicpc.net/problem/11057)
 - [B2167](https://www.acmicpc.net/problem/2167) [X]
 - [B11051](https://www.acmicpc.net/problem/11051) [O]
+- [B11052](https://www.acmicpc.net/problem/11052) [X]
+- [B11053](https://www.acmicpc.net/problem/11053) [X]
 - [B1699](https://www.acmicpc.net/problem/1699) [X]
 - [B16953](https://www.acmicpc.net/problem/16953) [O]
 - [B9184](https://www.acmicpc.net/problem/9184)
