@@ -12,6 +12,7 @@
 - [B1389](https://www.acmicpc.net/problem/1389)
 - [B4963](https://www.acmicpc.net/problem/4963)
 - [B11725](https://www.acmicpc.net/problem/11725)
+- [B1991](https://www.acmicpc.net/problem/1991)
 
 ## 다이나믹 프로그래밍
 - [B11660](https://www.acmicpc.net/problem/11660)
@@ -30,7 +31,7 @@
 - [B11057](https://www.acmicpc.net/problem/11057)
 - [B2167](https://www.acmicpc.net/problem/2167) [X]
 - [B11051](https://www.acmicpc.net/problem/11051) [O]
-- [B1699](https://www.acmicpc.net/problem/1699)
+- [B1699](https://www.acmicpc.net/problem/1699) [X]
 
 ## 브루트포스 알고리즘
 - [B30804](https://www.acmicpc.net/problem/30804)
