@@ -33,8 +33,9 @@
 - [B11051](https://www.acmicpc.net/problem/11051) [O]
 - [B1699](https://www.acmicpc.net/problem/1699) [X]
 - [B16953](https://www.acmicpc.net/problem/16953) [O]
+- [B9184](https://www.acmicpc.net/problem/9184)
 
-## 브루트포스 알고리즘
+## 브루트포스 알고리즘 - MON
 - [B30804](https://www.acmicpc.net/problem/30804)
 - [B6064](https://www.acmicpc.net/problem/6064)
 - [B1051](https://www.acmicpc.net/problem/1051)
@@ -43,12 +44,12 @@
 - [B3273](https://www.acmicpc.net/problem/3273) [X]
 - [B2003](https://www.acmicpc.net/problem/2003) [X]
 
-## 구현
+## 구현 - TUE
 - [B2504](https://www.acmicpc.net/problem/2504)
 - [B5430](https://www.acmicpc.net/problem/5430)
 - [B5525](https://www.acmicpc.net/problem/5525) [X]
 
-## 그리디 알고리즘
+## 그리디 알고리즘 - WED
 - [B1715](https://www.acmicpc.net/problem/1715)
 - [B1439](https://www.acmicpc.net/problem/1439)
 - [B2847](https://www.acmicpc.net/problem/2847)
@@ -59,7 +60,7 @@
 - [B1213](https://www.acmicpc.net/problem/1213)
 - [B1138](https://www.acmicpc.net/problem/1138)
 
-## 자료구조
+## 자료구조 - FRI
 - [B19638](https://www.acmicpc.net/problem/19638)
 - [B1406](https://www.acmicpc.net/problem/1406)
 - [B10799](https://www.acmicpc.net/problem/10799)
