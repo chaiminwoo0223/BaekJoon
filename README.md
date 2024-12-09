@@ -50,6 +50,7 @@
 - [B2504](https://www.acmicpc.net/problem/2504)
 - [B5430](https://www.acmicpc.net/problem/5430)
 - [B3190](https://www.acmicpc.net/problem/3190)
+- [B1629](https://www.acmicpc.net/problem/1629)
 
 ## 그리디 알고리즘 - WED
 - [B1715](https://www.acmicpc.net/problem/1715)
