@@ -13,6 +13,7 @@
 - [B4963](https://www.acmicpc.net/problem/4963)
 - [B11725](https://www.acmicpc.net/problem/11725)
 - [B1991](https://www.acmicpc.net/problem/1991)
+- [B7562](https://www.acmicpc.net/problem/7562)
 
 ## 다이나믹 프로그래밍
 - [B11660](https://www.acmicpc.net/problem/11660)
@@ -48,7 +49,6 @@
 ## 구현 - TUE
 - [B2504](https://www.acmicpc.net/problem/2504)
 - [B5430](https://www.acmicpc.net/problem/5430)
-- [B5525](https://www.acmicpc.net/problem/5525) [X]
 - [B3190](https://www.acmicpc.net/problem/3190)
 
 ## 그리디 알고리즘 - WED
