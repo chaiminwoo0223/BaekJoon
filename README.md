@@ -45,6 +45,7 @@
 - [B1057](https://www.acmicpc.net/problem/1057)
 - [B3273](https://www.acmicpc.net/problem/3273) [X]
 - [B2003](https://www.acmicpc.net/problem/2003) [X]
+- [B9663](https://www.acmicpc.net/problem/9663)
 
 ## 구현 - TUE
 - [B2504](https://www.acmicpc.net/problem/2504)
