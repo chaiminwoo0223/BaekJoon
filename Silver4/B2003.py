@@ -1,22 +1,22 @@
 # 수들의 합 2
-# 투 포인터
+# 투 포인터(뱀 같음)
 # O(n)
 import sys
 
 n, m = map(int, sys.stdin.readline().split())
-numbers = list(map(int, sys.stdin.readline().split()))
-result = 0
-count = 0
+a = list(map(int, sys.stdin.readline().split()))
 start = 0
+number = 0
+count = 0
 
 for end in range(n):
-    result += numbers[end]
+    number += a[end]
 
-    while result > m:
-        result -= numbers[start]
+    while number > m:
+        number -= a[start]
         start += 1
 
-    if result == m:
+    if number == m:
         count += 1
 
 print(count)
