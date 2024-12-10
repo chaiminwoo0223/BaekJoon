@@ -1,9 +1,9 @@
 # N과 M (7)
-from itertools import product
+from itertools import combinations_with_replacement
 import sys
 
 n, m = map(int, sys.stdin.readline().split())
 numbers = sorted(map(int, sys.stdin.readline().split()))
 
-for p in product(numbers, repeat=m):
-    print(*p)
+for c in combinations_with_replacement(numbers, m):
+    print(*c)
