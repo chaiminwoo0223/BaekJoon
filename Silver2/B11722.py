@@ -8,6 +8,6 @@ length = [1] * n
 for i in range(1, n):
     for j in range(i):
         if a[i] < a[j]:
-            length[i] = max(length[i], length[j]+1)
+            length[i] = max(length[i], length[j]+1) # 핵심
 
 print(max(length))
