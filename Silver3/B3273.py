@@ -1,25 +1,26 @@
 # 두 수의 합
-# 투 포인터
+# 투 포인터(범위 축소)
 # 정렬
 import sys
 
 n = int(sys.stdin.readline())
-numbers = sorted(map(int, sys.stdin.readline().split()))
+a = sorted(map(int, sys.stdin.readline().split()))
 x = int(sys.stdin.readline())
 start = 0
 end = n-1
+number = 0
 count = 0
 
 while start < end:
-    result = numbers[start] + numbers[end]
+    number = a[start] + a[end]
 
-    if result == x:
+    if number == x:
         count += 1
         start += 1
         end -= 1
-    elif result < x:
-        start += 1
-    else:
+    elif number > x:
         end -= 1
+    else:
+        start += 1
 
 print(count)
