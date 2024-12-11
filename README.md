@@ -67,6 +67,7 @@
 - [B13305](https://www.acmicpc.net/problem/13305)
 - [B1213](https://www.acmicpc.net/problem/1213)
 - [B1138](https://www.acmicpc.net/problem/1138)
+- [B1339](https://www.acmicpc.net/problem/1339)
 
 ## 자료구조 - FRI
 - [B19638](https://www.acmicpc.net/problem/19638)
