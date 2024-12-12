@@ -8,19 +8,18 @@ a = sorted(map(int, sys.stdin.readline().split()))
 x = int(sys.stdin.readline())
 start = 0
 end = n-1
-number = 0
 count = 0
 
 while start < end:
     number = a[start] + a[end]
 
-    if number == x:
-        count += 1
+    if number < x:
         start += 1
-        end -= 1
     elif number > x:
         end -= 1
     else:
         start += 1
+        end -= 1
+        count += 1
 
 print(count)
