@@ -72,6 +72,7 @@
 - [B19638](https://www.acmicpc.net/problem/19638)
 - [B1406](https://www.acmicpc.net/problem/1406)
 - [B10799](https://www.acmicpc.net/problem/10799)
+- [B2493](https://www.acmicpc.net/problem/2493)
 
 ## 이분 탐색
 - [B2805](https://www.acmicpc.net/problem/2805)
