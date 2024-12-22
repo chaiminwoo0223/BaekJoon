@@ -42,39 +42,44 @@
 - [B1699](https://www.acmicpc.net/problem/1699) [X]
 - [B16953](https://www.acmicpc.net/problem/16953) [O]
 - [B9184](https://www.acmicpc.net/problem/9184)
+- [B15988](https://www.acmicpc.net/problem/15988)
 
 ## 브루트포스 알고리즘 - MON
+- [B9663](https://www.acmicpc.net/problem/9663)
+
 - [B30804](https://www.acmicpc.net/problem/30804)
 - [B6064](https://www.acmicpc.net/problem/6064)
 - [B1051](https://www.acmicpc.net/problem/1051)
 - [B1969](https://www.acmicpc.net/problem/1969)
 - [B1057](https://www.acmicpc.net/problem/1057)
-- [B9663](https://www.acmicpc.net/problem/9663)
 
 ## 구현 - TUE
 - [B2504](https://www.acmicpc.net/problem/2504)
 - [B5430](https://www.acmicpc.net/problem/5430)
 - [B3190](https://www.acmicpc.net/problem/3190)
-- [B1629](https://www.acmicpc.net/problem/1629)
 - [B14719](https://www.acmicpc.net/problem/14719)
+
+- [B1629](https://www.acmicpc.net/problem/1629)
 
 ## 그리디 알고리즘 - WED
 - [B1715](https://www.acmicpc.net/problem/1715)
-- [B1439](https://www.acmicpc.net/problem/1439)
-- [B2847](https://www.acmicpc.net/problem/2847)
-- [B1049](https://www.acmicpc.net/problem/1049)
 - [B12904](https://www.acmicpc.net/problem/12904)
+- [B1339](https://www.acmicpc.net/problem/1339)
+
 - [B1449](https://www.acmicpc.net/problem/1449)
 - [B13305](https://www.acmicpc.net/problem/13305)
 - [B1213](https://www.acmicpc.net/problem/1213)
 - [B1138](https://www.acmicpc.net/problem/1138)
-- [B1339](https://www.acmicpc.net/problem/1339)
+- [B1439](https://www.acmicpc.net/problem/1439)
+- [B2847](https://www.acmicpc.net/problem/2847)
+- [B1049](https://www.acmicpc.net/problem/1049)
 
 ## 자료구조 - FRI
+- [B2493](https://www.acmicpc.net/problem/2493)
+
 - [B19638](https://www.acmicpc.net/problem/19638)
 - [B1406](https://www.acmicpc.net/problem/1406)
 - [B10799](https://www.acmicpc.net/problem/10799)
-- [B2493](https://www.acmicpc.net/problem/2493)
 
 ## 이분 탐색
 - [B2805](https://www.acmicpc.net/problem/2805)
