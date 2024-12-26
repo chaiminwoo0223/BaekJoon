@@ -46,11 +46,11 @@
 - [B15988](https://www.acmicpc.net/problem/15988)
 
 ## 브루트포스 알고리즘 - MON
-- [B9663](https://www.acmicpc.net/problem/9663) [G]
 - [B30804](https://www.acmicpc.net/problem/30804)
 - [B6064](https://www.acmicpc.net/problem/6064)
 - [B1969](https://www.acmicpc.net/problem/1969)
 - [B1057](https://www.acmicpc.net/problem/1057)
+- [B14889](https://www.acmicpc.net/problem/14889)
 
 ## 구현 - TUE
 - [B2504](https://www.acmicpc.net/problem/2504) [G]
@@ -77,7 +77,8 @@
 - [B1406](https://www.acmicpc.net/problem/1406)
 - [B10799](https://www.acmicpc.net/problem/10799)
 
-# 백트래킹 - FRI
+## 백트래킹 - FRI
+- [B9663](https://www.acmicpc.net/problem/9663) [G]
 - [B14888](https://www.acmicpc.net/problem/14888)
 
 ## 이분 탐색
