@@ -72,11 +72,14 @@
 - [B2847](https://www.acmicpc.net/problem/2847)
 - [B1049](https://www.acmicpc.net/problem/1049)
 
-## 자료구조 - FRI
+## 자료구조 - THU
 - [B2493](https://www.acmicpc.net/problem/2493) [G]
 - [B19638](https://www.acmicpc.net/problem/19638)
 - [B1406](https://www.acmicpc.net/problem/1406)
 - [B10799](https://www.acmicpc.net/problem/10799)
+
+# 백트래킹 - FRI
+- [B14888](https://www.acmicpc.net/problem/14888)
 
 ## 이분 탐색
 - [B2805](https://www.acmicpc.net/problem/2805)
