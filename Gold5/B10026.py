@@ -10,8 +10,8 @@ q = deque()
 result = []
 
 for i in range(n):
-    for color in sys.stdin.readline().rstrip():
-        graph[i].append(color)
+    for c in sys.stdin.readline().rstrip():
+        graph[i].append(c)
 
 def color(blind):
     count = 0
