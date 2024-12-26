@@ -49,7 +49,6 @@
 - [B9663](https://www.acmicpc.net/problem/9663) [G]
 - [B30804](https://www.acmicpc.net/problem/30804)
 - [B6064](https://www.acmicpc.net/problem/6064)
-- [B1051](https://www.acmicpc.net/problem/1051)
 - [B1969](https://www.acmicpc.net/problem/1969)
 - [B1057](https://www.acmicpc.net/problem/1057)
 
