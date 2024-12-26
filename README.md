@@ -1,5 +1,5 @@
 ## DFS/BFS
-- [B7576](https://www.acmicpc.net/problem/7576)
+- [B7576](https://www.acmicpc.net/problem/7576) [G]
 - [B1260](https://www.acmicpc.net/problem/1260)
 - [B2178](https://www.acmicpc.net/problem/2178)
 - [B2606](https://www.acmicpc.net/problem/2606) [O]
