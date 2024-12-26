@@ -1,4 +1,5 @@
 ## DFS/BFS
+- [B7576](https://www.acmicpc.net/problem/7576)
 - [B1260](https://www.acmicpc.net/problem/1260)
 - [B2178](https://www.acmicpc.net/problem/2178)
 - [B2606](https://www.acmicpc.net/problem/2606) [O]
@@ -45,8 +46,7 @@
 - [B15988](https://www.acmicpc.net/problem/15988)
 
 ## 브루트포스 알고리즘 - MON
-- [B9663](https://www.acmicpc.net/problem/9663)
-
+- [B9663](https://www.acmicpc.net/problem/9663) [G]
 - [B30804](https://www.acmicpc.net/problem/30804)
 - [B6064](https://www.acmicpc.net/problem/6064)
 - [B1051](https://www.acmicpc.net/problem/1051)
@@ -54,18 +54,16 @@
 - [B1057](https://www.acmicpc.net/problem/1057)
 
 ## 구현 - TUE
-- [B2504](https://www.acmicpc.net/problem/2504)
-- [B5430](https://www.acmicpc.net/problem/5430)
-- [B3190](https://www.acmicpc.net/problem/3190)
-- [B14719](https://www.acmicpc.net/problem/14719)
-
+- [B2504](https://www.acmicpc.net/problem/2504) [G]
+- [B5430](https://www.acmicpc.net/problem/5430) [G]
+- [B3190](https://www.acmicpc.net/problem/3190) [G]
+- [B14719](https://www.acmicpc.net/problem/14719) [G]
 - [B1629](https://www.acmicpc.net/problem/1629)
 
 ## 그리디 알고리즘 - WED
-- [B1715](https://www.acmicpc.net/problem/1715)
-- [B12904](https://www.acmicpc.net/problem/12904)
-- [B1339](https://www.acmicpc.net/problem/1339)
-
+- [B1715](https://www.acmicpc.net/problem/1715) [G]
+- [B12904](https://www.acmicpc.net/problem/12904) [G]
+- [B1339](https://www.acmicpc.net/problem/1339) [G]
 - [B1449](https://www.acmicpc.net/problem/1449)
 - [B13305](https://www.acmicpc.net/problem/13305)
 - [B1213](https://www.acmicpc.net/problem/1213)
@@ -75,8 +73,7 @@
 - [B1049](https://www.acmicpc.net/problem/1049)
 
 ## 자료구조 - FRI
-- [B2493](https://www.acmicpc.net/problem/2493)
-
+- [B2493](https://www.acmicpc.net/problem/2493) [G]
 - [B19638](https://www.acmicpc.net/problem/19638)
 - [B1406](https://www.acmicpc.net/problem/1406)
 - [B10799](https://www.acmicpc.net/problem/10799)
