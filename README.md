@@ -59,7 +59,6 @@
 - [B5430](https://www.acmicpc.net/problem/5430) [G]
 - [B3190](https://www.acmicpc.net/problem/3190) [G]
 - [B14719](https://www.acmicpc.net/problem/14719) [G]
-- [B1629](https://www.acmicpc.net/problem/1629)
 
 ## 그리디 알고리즘 - WED
 - [B1715](https://www.acmicpc.net/problem/1715) [G]
@@ -76,7 +75,6 @@
 ## 자료구조 - THU
 - [B13164](https://www.acmicpc.net/problem/13164) [G]
 - [B2493](https://www.acmicpc.net/problem/2493) [G]
-- [B19638](https://www.acmicpc.net/problem/19638)
 - [B1406](https://www.acmicpc.net/problem/1406)
 - [B10799](https://www.acmicpc.net/problem/10799)
 
@@ -89,3 +87,7 @@
 - [B2110](https://www.acmicpc.net/problem/2110)
 - [B2512](https://www.acmicpc.net/problem/2512)
 - [B7795](https://www.acmicpc.net/problem/7795)
+
+## 복습
+- [B1629](https://www.acmicpc.net/problem/1629)
+- [B19638](https://www.acmicpc.net/problem/19638)
