@@ -74,6 +74,7 @@
 - [B1049](https://www.acmicpc.net/problem/1049)
 
 ## 자료구조 - THU
+- [B13164](https://www.acmicpc.net/problem/13164) [G]
 - [B2493](https://www.acmicpc.net/problem/2493) [G]
 - [B19638](https://www.acmicpc.net/problem/19638)
 - [B1406](https://www.acmicpc.net/problem/1406)
