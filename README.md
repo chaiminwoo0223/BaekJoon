@@ -24,6 +24,7 @@
 - [B14940](https://www.acmicpc.net/problem/14940)
 
 ## 다이나믹 프로그래밍
+- [B9251](https://www.acmicpc.net/problem/9251)
 - [B11660](https://www.acmicpc.net/problem/11660)
 - [B9465](https://www.acmicpc.net/problem/9465)
 - [B1912](https://www.acmicpc.net/problem/1912)
