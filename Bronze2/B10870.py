@@ -2,7 +2,7 @@
 import sys
 
 n = int(sys.stdin.readline())
-number = [0] * 46
+number = [0] * 21
 number[1] = 1
 
 if n > 1:
