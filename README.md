@@ -94,3 +94,4 @@
 - [B1629](https://www.acmicpc.net/problem/1629)
 - [B19638](https://www.acmicpc.net/problem/19638)
 - [B15624](https://www.acmicpc.net/problem/15624)
+- [B2749](https://www.acmicpc.net/problem/2749)
