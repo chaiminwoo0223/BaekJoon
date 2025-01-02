@@ -92,6 +92,6 @@
 - [B7795](https://www.acmicpc.net/problem/7795)
 
 ## 복습
-- [B19638](https://www.acmicpc.net/problem/19638) [X]
-- [B2749](https://www.acmicpc.net/problem/2749)
+- [B19638](https://www.acmicpc.net/problem/19638)
 - [B11444](https://www.acmicpc.net/problem/11444)
+- [B2749](https://www.acmicpc.net/problem/2749)
