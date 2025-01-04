@@ -12,7 +12,7 @@
 - [B2644](https://www.acmicpc.net/problem/2644)
 - [B1697](https://www.acmicpc.net/problem/1697)
 - [B11403](https://www.acmicpc.net/problem/11403)
-- [B9372](https://www.acmicpc.net/problem/9372) [O]
+- [B9372](https://www.acmicpc.net/problem/9372) [X]
 - [B1389](https://www.acmicpc.net/problem/1389)
 - [B4963](https://www.acmicpc.net/problem/4963)
 - [B11725](https://www.acmicpc.net/problem/11725)
