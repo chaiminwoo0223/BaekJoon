@@ -1,34 +1,39 @@
 # 단지번호붙이기
+# list(map(int, sys.stdin.readline().rstrip())) -> 1101010 -> [1, 1, 0, 1, 0, 1, 0]
 from collections import deque
 import sys
 
-def bfs(x, y):
-    count = 1
-    graph[x][y] = 0 # 탐색 중인 위치 0으로 바꿔 다시 방문하지 않도록 함
-    q.append((x, y))
+n = int(sys.stdin.readline())
+graph = [list(map(int, sys.stdin.readline().rstrip())) for _ in range(n)]
+visited = [[0] * n for _ in range(n)]
+dx = [-1, 0, 1, 0]
+dy = [0, 1, 0, -1]
+result = []
+q = deque()
+
+def bfs():
+    count = 0
 
     while q:
         x, y = q.popleft()
+        graph[x][y] = 1
+        visited[x][y] = 1
+        count += 1
         for i in range(4):
-            nx = x + dx[i]
-            ny = y + dy[i]
-            if 0 <= nx < n and 0 <= ny < n and graph[nx][ny] == 1:
-                count += 1
-                graph[nx][ny] = 0
-                q.append((nx, ny))
-    return count
+            tx = x + dx[i]
+            ty = y + dy[i]
+            if 0 <= tx < n and 0 <= ty < n and graph[tx][ty] == 1 and visited[tx][ty] == 0:
+                graph[tx][ty] = 1
+                visited[tx][ty] = 1
+                q.append([tx, ty])
 
-n = int(sys.stdin.readline())
-graph = [list(map(int, sys.stdin.readline().rstrip())) for _ in range(n)]
-result = []
-dx = [0, 0, 1, -1]
-dy = [1, -1, 0, 0]
-q = deque()
+    result.append(count)
 
 for i in range(n):
     for j in range(n):
-        if graph[i][j] == 1:
-            result.append(bfs(i, j))
+        if graph[i][j] == 1 and visited[i][j] == 0:
+            q.append([i, j])
+            bfs()
 
 print(len(result))
 for r in sorted(result):
