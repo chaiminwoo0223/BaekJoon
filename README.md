@@ -6,7 +6,6 @@
 - [B7569](https://www.acmicpc.net/problem/7569) [O]
 - [B1260](https://www.acmicpc.net/problem/1260)
 - [B2178](https://www.acmicpc.net/problem/2178)
-- [B1012](https://www.acmicpc.net/problem/1012)
 - [B11724](https://www.acmicpc.net/problem/11724)
 - [B2644](https://www.acmicpc.net/problem/2644)
 - [B1697](https://www.acmicpc.net/problem/1697)
@@ -91,4 +90,5 @@
 
 ## 복습
 - [B2749](https://www.acmicpc.net/problem/2749)
+- [B1012](https://www.acmicpc.net/problem/1012)
 - [B9372](https://www.acmicpc.net/problem/9372) [X]

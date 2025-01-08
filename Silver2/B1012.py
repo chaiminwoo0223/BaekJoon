@@ -1,4 +1,5 @@
 # 유기농 배추
+# 시간초과: visited X -> graph O
 from collections import deque
 import sys
 
@@ -6,32 +7,32 @@ def bfs():
     while q:
         x, y = q.popleft()
         for i in range(4):
-            nx = x + dx[i]
-            ny = y + dy[i]
-            if 0 <= nx < m and 0 <= ny < n and graph[nx][ny]: # 범위 설정
-                q.append((nx, ny))
-                graph[nx][ny] = False
+            tx = x + dx[i]
+            ty = y + dy[i]
+            if 0 <= tx < m and 0 <= ty < n and graph[tx][ty] == 1:
+                q.append([tx, ty])
+                graph[tx][ty] = 0
 
 t = int(sys.stdin.readline())
+dx = [-1, 0, 1, 0]
+dy = [0, 1, 0, -1]
 q = deque()
-dx = [0, 0, -1, 1]
-dy = [1, -1, 0, 0]
 
 for _ in range(t):
     m, n, k = map(int, sys.stdin.readline().split())
-    graph = [[False] * n for _ in range(m)] # 핵심
+    graph = [[0] * n for _ in range(m)]
     count = 0
-
+    
     for _ in range(k):
-        x, y = map(int, sys.stdin.readline().split())
-        graph[x][y] = True
-        
+        x, y = map(int, sys.stdin.readline().split()) # m, n
+        graph[x][y] = 1
+
     for i in range(m):
         for j in range(n):
-            if graph[i][j]:
-                q.append((i, j))
-                graph[i][j] = False
+            if graph[i][j] == 1:
+                q.append([i, j])
+                graph[i][j] = 0
                 bfs()
                 count += 1
-    
+
     print(count)
