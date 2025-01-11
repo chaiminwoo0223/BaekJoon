@@ -5,7 +5,6 @@
 - [B7576](https://www.acmicpc.net/problem/7576) [G]
 - [B7569](https://www.acmicpc.net/problem/7569) [O]
 - [B1260](https://www.acmicpc.net/problem/1260)
-- [B2644](https://www.acmicpc.net/problem/2644)
 - [B1697](https://www.acmicpc.net/problem/1697)
 - [B11403](https://www.acmicpc.net/problem/11403)
 - [B1389](https://www.acmicpc.net/problem/1389)

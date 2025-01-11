@@ -1,29 +1,32 @@
-# 촌수계산
+# 촌수계산 
 from collections import deque
 import sys
-
-def bfs(a, b):
-    q = deque([a])
-    while q:
-        person = q.popleft()
-        if person == b:
-            return visited[b]
-        for g in graph[person]:
-            if visited[g] == 0:
-                q.append(g)
-                visited[g] = visited[person] + 1
-    return -1
 
 n = int(sys.stdin.readline())
 a, b = map(int, sys.stdin.readline().split())
 m = int(sys.stdin.readline())
-relations = [list(map(int, sys.stdin.readline().split())) for _ in range(m)]
-graph = [[] for _ in range(n+1)]
-visited = [0 for _ in range(n+1)] # 핵심
+family = [[0] * (n+1) for _ in range(n+1)]
+visited = [0] * (n+1)
+q = deque()
 
-for relation in relations: # 양방향 연결
-    x, y = relation
-    graph[x].append(y)
-    graph[y].append(x)
+for _ in range(m):
+    x, y = map(int, sys.stdin.readline().split())
+    family[x][y] = 1
+    family[y][x] = 1
 
-print(bfs(a, b))
+def bfs():
+    while q:
+        x, count = q.popleft()
+        visited[x] = 1
+        
+        if x == b:
+            return count
+        else:
+            for next in range(1, n+1):
+                if family[x][next] == 1 and visited[next] == 0:
+                    q.append([next, count+1])
+
+    return -1
+
+q.append([a, 0])
+print(bfs())
