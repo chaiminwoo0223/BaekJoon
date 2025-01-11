@@ -7,7 +7,6 @@
 - [B1260](https://www.acmicpc.net/problem/1260)
 - [B11403](https://www.acmicpc.net/problem/11403)
 - [B1389](https://www.acmicpc.net/problem/1389)
-- [B11725](https://www.acmicpc.net/problem/11725)
 - [B1991](https://www.acmicpc.net/problem/1991)
 - [B7562](https://www.acmicpc.net/problem/7562)
 - [B21736](https://www.acmicpc.net/problem/21736)
@@ -88,3 +87,4 @@
 - [B9372](https://www.acmicpc.net/problem/9372) [X]
 - [B1406](https://www.acmicpc.net/problem/1406)
 - [B1697](https://www.acmicpc.net/problem/1697)
+- [B11725](https://www.acmicpc.net/problem/11725)
