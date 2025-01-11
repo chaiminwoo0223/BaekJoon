@@ -5,10 +5,8 @@
 - [B7576](https://www.acmicpc.net/problem/7576) [G]
 - [B7569](https://www.acmicpc.net/problem/7569) [O]
 - [B1260](https://www.acmicpc.net/problem/1260)
-- [B1697](https://www.acmicpc.net/problem/1697)
 - [B11403](https://www.acmicpc.net/problem/11403)
 - [B1389](https://www.acmicpc.net/problem/1389)
-- [B4963](https://www.acmicpc.net/problem/4963)
 - [B11725](https://www.acmicpc.net/problem/11725)
 - [B1991](https://www.acmicpc.net/problem/1991)
 - [B7562](https://www.acmicpc.net/problem/7562)
@@ -89,3 +87,4 @@
 - [B1012](https://www.acmicpc.net/problem/1012)
 - [B9372](https://www.acmicpc.net/problem/9372) [X]
 - [B1406](https://www.acmicpc.net/problem/1406)
+- [B1697](https://www.acmicpc.net/problem/1697)
