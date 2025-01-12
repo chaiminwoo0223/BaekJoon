@@ -1,4 +1,4 @@
-## DFS/BFS
+## BFS
 - [B9019](https://www.acmicpc.net/problem/9019) [G]
 - [B9205](https://www.acmicpc.net/problem/9205) [G]
 - [B16928](https://www.acmicpc.net/problem/16928) [G]
@@ -11,6 +11,10 @@
 - [B12852](https://www.acmicpc.net/problem/12852)
 - [B2630](https://www.acmicpc.net/problem/2630)
 - [B14940](https://www.acmicpc.net/problem/14940)
+
+## DFS
+- [B9663](https://www.acmicpc.net/problem/9663) [G]
+- [B14888](https://www.acmicpc.net/problem/14888)
 
 ## 다이나믹 프로그래밍
 - [B9251](https://www.acmicpc.net/problem/9251) [G]
@@ -68,10 +72,6 @@
 - [B13164](https://www.acmicpc.net/problem/13164) [G]
 - [B2493](https://www.acmicpc.net/problem/2493) [G]
 - [B10799](https://www.acmicpc.net/problem/10799)
-
-## 백트래킹 - FRI
-- [B9663](https://www.acmicpc.net/problem/9663) [G]
-- [B14888](https://www.acmicpc.net/problem/14888)
 
 ## 이분 탐색
 - [B2805](https://www.acmicpc.net/problem/2805)
