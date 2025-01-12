@@ -2,38 +2,40 @@
 from collections import deque
 import sys
 
-n, m = map(int, sys.stdin.readline().split())
-graph = [list(sys.stdin.readline().rstrip()) for _ in range(n)] # 핵심
-visited = [[0] * m for _ in range(n)] # 핵심2
+m, n = map(int, sys.stdin.readline().split())
+q = deque()
+campus = [list(sys.stdin.readline().rstrip()) for _ in range(m)]
+visited = [[0] * n for _ in range(m)]
 dx = [-1, 0, 1, 0]
 dy = [0, 1, 0, -1]
 
-def bfs(x, y):
-    q = deque([(x, y)])
-    visited[x][y] = 1
+for i in range(m):
+    for j in range(n):
+        if campus[i][j] == 'I':
+            q.append([i, j])
+            visited[i][j] = 1
+            break
+
+def bfs():
     count = 0
 
     while q:
         x, y = q.popleft()
+
+        if campus[x][y] == 'P':
+            count += 1
+
         for i in range(4):
             tx = x + dx[i]
             ty = y + dy[i]
 
-            if 0 <= tx < n and 0 <= ty < m and graph[tx][ty] != 'X' and visited[tx][ty] == 0:
-                if graph[tx][ty] == 'P':
-                    count += 1
-                visited[tx][ty] = 1
+            if 0 <= tx < m and 0 <= ty < n and campus[tx][ty] != 'X' and visited[tx][ty] == 0:
                 q.append([tx, ty])
+                visited[tx][ty] = 1
+    
+    if count != 0:
+        return count
+    else:
+        return "TT"
 
-    return count
-
-for i in range(n):
-    for j in range(m):
-        if graph[i][j] == 'I':
-            result = bfs(i, j)
-            break
-
-if result > 0:
-    print(result)
-else:
-    print("TT")
+print(bfs())
