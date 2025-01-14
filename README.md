@@ -6,7 +6,6 @@
 - [B7569](https://www.acmicpc.net/problem/7569) [O]
 - [B11403](https://www.acmicpc.net/problem/11403)
 - [B1389](https://www.acmicpc.net/problem/1389)
-- [B2630](https://www.acmicpc.net/problem/2630)
 
 ## DFS
 - [B9663](https://www.acmicpc.net/problem/9663) [G]
@@ -38,21 +37,21 @@
 - [B9184](https://www.acmicpc.net/problem/9184)
 - [B15988](https://www.acmicpc.net/problem/15988)
 
-## 브루트포스 알고리즘 - MON
+## 브루트포스 알고리즘
 - [B30804](https://www.acmicpc.net/problem/30804)
 - [B6064](https://www.acmicpc.net/problem/6064)
 - [B1969](https://www.acmicpc.net/problem/1969)
 - [B1057](https://www.acmicpc.net/problem/1057)
 - [B14889](https://www.acmicpc.net/problem/14889)
 
-## 구현 - TUE
+## 구현
 - [B2504](https://www.acmicpc.net/problem/2504) [G]
 - [B5430](https://www.acmicpc.net/problem/5430) [G]
 - [B3190](https://www.acmicpc.net/problem/3190) [G]
 - [B14719](https://www.acmicpc.net/problem/14719) [G]
 - [B14503](https://www.acmicpc.net/problem/14503) [G]
 
-## 그리디 알고리즘 - WED
+## 그리디 알고리즘
 - [B1715](https://www.acmicpc.net/problem/1715) [G]
 - [B12904](https://www.acmicpc.net/problem/12904) [G]
 - [B1339](https://www.acmicpc.net/problem/1339) [G]
@@ -64,7 +63,7 @@
 - [B2847](https://www.acmicpc.net/problem/2847)
 - [B1049](https://www.acmicpc.net/problem/1049)
 
-## 자료구조 - THU
+## 자료구조
 - [B13164](https://www.acmicpc.net/problem/13164) [G]
 - [B2493](https://www.acmicpc.net/problem/2493) [G]
 - [B10799](https://www.acmicpc.net/problem/10799)
@@ -76,10 +75,11 @@
 - [B7795](https://www.acmicpc.net/problem/7795)
 
 ## 복습
-- [B9372](https://www.acmicpc.net/problem/9372) [X]
 - [B1406](https://www.acmicpc.net/problem/1406)
 - [B1697](https://www.acmicpc.net/problem/1697)
 - [B11725](https://www.acmicpc.net/problem/11725)
 - [B1991](https://www.acmicpc.net/problem/1991)
 - [B14940](https://www.acmicpc.net/problem/14940)
 - [B12852](https://www.acmicpc.net/problem/12852)
+- [B9372](https://www.acmicpc.net/problem/9372) [X]
+- [B2630](https://www.acmicpc.net/problem/2630)
