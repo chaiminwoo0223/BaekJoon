@@ -6,9 +6,7 @@
 - [B7569](https://www.acmicpc.net/problem/7569) [O]
 - [B11403](https://www.acmicpc.net/problem/11403)
 - [B1389](https://www.acmicpc.net/problem/1389)
-- [B12852](https://www.acmicpc.net/problem/12852)
 - [B2630](https://www.acmicpc.net/problem/2630)
-- [B14940](https://www.acmicpc.net/problem/14940)
 
 ## DFS
 - [B9663](https://www.acmicpc.net/problem/9663) [G]
@@ -83,3 +81,5 @@
 - [B1697](https://www.acmicpc.net/problem/1697)
 - [B11725](https://www.acmicpc.net/problem/11725)
 - [B1991](https://www.acmicpc.net/problem/1991)
+- [B14940](https://www.acmicpc.net/problem/14940)
+- [B12852](https://www.acmicpc.net/problem/12852)
