@@ -1,41 +1,42 @@
 # DFS와 BFS
-# 큐 <<< 덱
 from collections import deque
 import sys
 
-def dfs(v):
-    visited[v] = True
-    print(v, end=" ")
+n, m, v = map(int, sys.stdin.readline().split())
+graph = [[0] * (n+1) for _ in range(n+1)]
+q = deque()
+
+for _ in range(m):
+    x, y = map(int, sys.stdin.readline().split())
+    graph[x][y] = 1
+    graph[y][x] = 1
+
+def dfs(x):
+    print(x, end=' ')
+
     for next in range(1, n+1):
-        if not visited[next] and graph[v][next]:
+        if graph[x][next] == 1 and visited[next] == 0:
+            visited[next] = 1
             dfs(next)
 
 def bfs():
     while q:
-        current = q.popleft()
-        print(current, end=" ")
+        x = q.popleft()
+        print(x, end=' ')
+
         for next in range(1, n+1):
-            if not visited[next] and graph[current][next]:
-                visited[next] = True
+            if graph[x][next] == 1 and visited[next] == 0:
                 q.append(next)
+                visited[next] = 1
 
-n, m, v = map(int, sys.stdin.readline().split())
-graph = [[False] * (n+1) for _ in range(n+1)] # 핵심
-visited = [False] * (n+1) # 핵심
-q = deque()
-
-# 그래프 초기화
-for _ in range(m):
-    a, b = map(int, sys.stdin.readline().split())
-    graph[a][b] = True
-    graph[b][a] = True
-
-# DFS
+# dfs
+visited = [0] * (n+1)
+visited[v] = 1
 dfs(v)
 print()
 
-# BFS
-visited = [False] * (n+1) # 핵심
+# bfs
+visited = [0] * (n+1)
 q.append(v)
-visited[v] = True
+visited[v] = 1
 bfs()
