@@ -55,6 +55,8 @@
 - [B1715](https://www.acmicpc.net/problem/1715) [G]
 - [B12904](https://www.acmicpc.net/problem/12904) [G]
 - [B1339](https://www.acmicpc.net/problem/1339) [G]
+- [B13164](https://www.acmicpc.net/problem/13164) [G]
+- [B2212](https://www.acmicpc.net/problem/2212) [G]
 - [B1449](https://www.acmicpc.net/problem/1449)
 - [B13305](https://www.acmicpc.net/problem/13305)
 - [B1213](https://www.acmicpc.net/problem/1213)
