@@ -2,7 +2,6 @@
 - [B9019](https://www.acmicpc.net/problem/9019) [G]
 - [B9205](https://www.acmicpc.net/problem/9205) [G]
 - [B16928](https://www.acmicpc.net/problem/16928) [G]
-- [B7576](https://www.acmicpc.net/problem/7576) [G]
 - [B7569](https://www.acmicpc.net/problem/7569) [O]
 - [B11403](https://www.acmicpc.net/problem/11403)
 - [B1389](https://www.acmicpc.net/problem/1389)
@@ -52,11 +51,11 @@
 - [B14503](https://www.acmicpc.net/problem/14503) [G]
 
 ## 그리디 알고리즘
+- [B13164](https://www.acmicpc.net/problem/13164) [G]
+- [B2212](https://www.acmicpc.net/problem/2212) [G]
 - [B1715](https://www.acmicpc.net/problem/1715) [G]
 - [B12904](https://www.acmicpc.net/problem/12904) [G]
 - [B1339](https://www.acmicpc.net/problem/1339) [G]
-- [B13164](https://www.acmicpc.net/problem/13164) [G]
-- [B2212](https://www.acmicpc.net/problem/2212) [G]
 - [B1449](https://www.acmicpc.net/problem/1449)
 - [B13305](https://www.acmicpc.net/problem/13305)
 - [B1213](https://www.acmicpc.net/problem/1213)
@@ -86,4 +85,4 @@
 - [B12852](https://www.acmicpc.net/problem/12852)
 - [B9372](https://www.acmicpc.net/problem/9372) [X]
 - [B2630](https://www.acmicpc.net/problem/2630)
-- [B12931](https://www.acmicpc.net/problem/12931)
+- [B12931](https://www.acmicpc.net/problem/12931) [G]
