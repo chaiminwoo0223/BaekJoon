@@ -66,6 +66,7 @@
 ## 자료구조
 - [B13164](https://www.acmicpc.net/problem/13164) [G]
 - [B2493](https://www.acmicpc.net/problem/2493) [G]
+- [B7622](https://www.acmicpc.net/problem/7622) [G]
 - [B10799](https://www.acmicpc.net/problem/10799)
 
 ## 이분 탐색
