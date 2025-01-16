@@ -11,7 +11,6 @@ tomato = True
 count = 0
 
 def bfs():
-    global count
     while q:
         x, y = q.popleft()
 
