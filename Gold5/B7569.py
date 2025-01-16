@@ -1,42 +1,40 @@
-# 토마토2
+# 토마토 2
 from collections import deque
 import sys
 
 m, n, h = map(int, sys.stdin.readline().split())
-box = [[list(map(int, sys.stdin.readline().split())) for _ in range(n)] for _ in range(h)]
-dx = [0, 0, 0, 0, -1, 1]
-dy = [0, 1, 0, -1, 0, 0]
-dz = [-1, 0, 1, 0, 0, 0]
+graph = [list(list(map(int, sys.stdin.readline().split())) for _ in range(n)) for _ in range(h)]
+dt = [[-1, 0, 0], [1, 0, 0], [0, 1, 0], [0, 0, 1], [0, -1, 0], [0, 0, -1]]
 q = deque()
-count = -1
-
-for i in range(h):
-    for j in range(n):
-        for k in range(m):
-            if box[i][j][k] == 1:
-                q.append([i, j, k])
+count = 0
 
 def bfs():
     while q:
         x, y, z = q.popleft()
+
         for i in range(6):
-            tx = x + dx[i]
-            ty = y + dy[i]
-            tz = z + dz[i]
-            if 0 <= tx < h and 0 <= ty < n and 0 <= tz < m and box[tx][ty][tz] == 0:
-                box[tx][ty][tz] = box[x][y][z] + 1
+            tx = x + dt[i][0]
+            ty = y + dt[i][1]
+            tz = z + dt[i][2]
+
+            if 0 <= tx < h and 0 <= ty < n and 0 <= tz < m and graph[tx][ty][tz] == 0:
+                graph[tx][ty][tz] = graph[x][y][z] + 1
                 q.append([tx, ty, tz])
+
+for i in range(h):
+    for j in range(n):
+        for k in range(m):
+            if graph[i][j][k] == 1:
+                q.append([i, j, k])
 
 bfs()
 
 for i in range(h):
     for j in range(n):
-        if 0 in box[i][j]:
-            count = 0
-            break
+        if 0 in graph[i][j]:
+            print(-1)
+            sys.exit()
         else:
-            count = max(count, max(box[i][j]))
-    if count == 0:
-        break
+            count = max(count, max(graph[i][j]))
 
 print(count - 1)

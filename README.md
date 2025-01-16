@@ -2,7 +2,6 @@
 - [B9019](https://www.acmicpc.net/problem/9019) [G]
 - [B9205](https://www.acmicpc.net/problem/9205) [G]
 - [B16928](https://www.acmicpc.net/problem/16928) [G]
-- [B7569](https://www.acmicpc.net/problem/7569) [O]
 - [B11403](https://www.acmicpc.net/problem/11403)
 - [B1389](https://www.acmicpc.net/problem/1389)
 
