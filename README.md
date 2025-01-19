@@ -75,7 +75,6 @@
 - [B7795](https://www.acmicpc.net/problem/7795)
 
 ## 복습
-- [B1406](https://www.acmicpc.net/problem/1406)
 - [B1697](https://www.acmicpc.net/problem/1697)
 - [B11725](https://www.acmicpc.net/problem/11725)
 - [B14940](https://www.acmicpc.net/problem/14940)
