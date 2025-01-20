@@ -5,6 +5,7 @@
 - [B11403](https://www.acmicpc.net/problem/11403)
 
 ## DFS
+- [B1074](https://www.acmicpc.net/problem/1074) [G]
 - [B9663](https://www.acmicpc.net/problem/9663) [G]
 - [B14888](https://www.acmicpc.net/problem/14888)
 - [B14889](https://www.acmicpc.net/problem/14889)
