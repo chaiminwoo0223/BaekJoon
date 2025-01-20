@@ -38,7 +38,6 @@
 ## 브루트포스 알고리즘
 - [B30804](https://www.acmicpc.net/problem/30804)
 - [B6064](https://www.acmicpc.net/problem/6064)
-- [B1969](https://www.acmicpc.net/problem/1969)
 - [B1057](https://www.acmicpc.net/problem/1057)
 
 ## 구현
@@ -75,10 +74,10 @@
 - [B7795](https://www.acmicpc.net/problem/7795)
 
 ## 복습
-- [B1697](https://www.acmicpc.net/problem/1697)
 - [B11725](https://www.acmicpc.net/problem/11725)
 - [B14940](https://www.acmicpc.net/problem/14940)
 - [B12852](https://www.acmicpc.net/problem/12852)
 - [B9372](https://www.acmicpc.net/problem/9372) [X]
 - [B2630](https://www.acmicpc.net/problem/2630)
 - [B12931](https://www.acmicpc.net/problem/12931) [G]
+- [B1697](https://www.acmicpc.net/problem/1697)

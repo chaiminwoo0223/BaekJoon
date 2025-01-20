@@ -1,35 +1,21 @@
 # DNA
+from collections import Counter
 import sys
 
 n, m = map(int, sys.stdin.readline().split())
-DNA = []
+dna = [list(sys.stdin.readline().rstrip()) for _ in range(n)]
 result = ""
-number = 0
-
-for _ in range(n):
-    DNA.append(sys.stdin.readline().rstrip())
+total = 0
 
 for j in range(m):
-    count = [0, 0, 0, 0] # A, C, G, T
+    counter = Counter()
+
     for i in range(n):
-        if DNA[i][j] == 'A':
-            count[0] += 1
-        elif DNA[i][j] == 'C':
-            count[1] += 1
-        elif DNA[i][j] == 'G':
-            count[2] += 1
-        else:
-            count[3] += 1
-    idx = count.index(max(count))
-    if idx == 0:
-        result += 'A'
-    elif idx == 1:
-        result += 'C'
-    elif idx == 2:
-        result += 'G'
-    else:
-        result += 'T'
-    number += (n - max(count))
+        counter[dna[i][j]] += 1
+
+    best = sorted(counter.most_common(), key = lambda x:(-x[1], x[0]))
+    result += best[0][0]
+    total += n - best[0][1]
 
 print(result)
-print(number)
+print(total)
