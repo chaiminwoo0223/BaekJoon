@@ -1,4 +1,5 @@
 ## BFS
+- [B14502](https://www.acmicpc.net/problem/14502) [G]
 - [B9019](https://www.acmicpc.net/problem/9019) [G]
 - [B9205](https://www.acmicpc.net/problem/9205) [G]
 - [B16928](https://www.acmicpc.net/problem/16928) [G]
