@@ -38,7 +38,6 @@
 ## 브루트포스 알고리즘
 - [B30804](https://www.acmicpc.net/problem/30804)
 - [B6064](https://www.acmicpc.net/problem/6064)
-- [B1057](https://www.acmicpc.net/problem/1057)
 
 ## 구현
 - [B2504](https://www.acmicpc.net/problem/2504) [G]
@@ -81,3 +80,4 @@
 - [B2630](https://www.acmicpc.net/problem/2630)
 - [B12931](https://www.acmicpc.net/problem/12931) [G]
 - [B1697](https://www.acmicpc.net/problem/1697)
+- [B1057](https://www.acmicpc.net/problem/1057)

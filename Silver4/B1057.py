@@ -8,4 +8,5 @@ while m != o:
     m -= m // 2
     o -= o // 2
     count += 1
+
 print(count)
