@@ -12,22 +12,18 @@ def bfs():
     while q:
         x, numbers = q.popleft()
         numbers = numbers + [x] # 핵심
+        visited[x] = 1
 
         if x == 1:
-            return len(numbers) - 1, numbers
+            print(len(numbers) - 1)
+            print(*numbers)
+            break
         if x % 3 == 0 and visited[x // 3] == 0:
-            visited[x // 3] = 1
             q.append([x // 3, numbers])
         if x % 2 == 0 and visited[x // 2] == 0:
-            visited[x // 2] = 1
             q.append([x // 2, numbers])
         if x - 1 > 0 and visited[x - 1] == 0:
-            visited[x - 1] = 1
             q.append([x - 1, numbers])
 
 q.append([n, []])
-visited[n] = 1
-step, numbers = bfs()
-
-print(step)
-print(*numbers)
+bfs()
