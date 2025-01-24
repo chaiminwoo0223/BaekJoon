@@ -37,16 +37,22 @@
 - [B9184](https://www.acmicpc.net/problem/9184)
 - [B15988](https://www.acmicpc.net/problem/15988)
 
-## 브루트포스 알고리즘
-- [B30804](https://www.acmicpc.net/problem/30804)
-- [B6064](https://www.acmicpc.net/problem/6064)
-
 ## 구현
 - [B2504](https://www.acmicpc.net/problem/2504) [G]
 - [B5430](https://www.acmicpc.net/problem/5430) [G]
 - [B3190](https://www.acmicpc.net/problem/3190) [G]
 - [B14719](https://www.acmicpc.net/problem/14719) [G]
 - [B14503](https://www.acmicpc.net/problem/14503) [G]
+
+## 자료구조
+- [B13164](https://www.acmicpc.net/problem/13164) [G]
+- [B2493](https://www.acmicpc.net/problem/2493) [G]
+- [B7622](https://www.acmicpc.net/problem/7622) [G]
+- [B10799](https://www.acmicpc.net/problem/10799)
+
+## 브루트포스 알고리즘
+- [B30804](https://www.acmicpc.net/problem/30804)
+- [B6064](https://www.acmicpc.net/problem/6064)
 
 ## 그리디 알고리즘
 - [B13164](https://www.acmicpc.net/problem/13164) [G]
@@ -61,12 +67,6 @@
 - [B1439](https://www.acmicpc.net/problem/1439)
 - [B2847](https://www.acmicpc.net/problem/2847)
 - [B1049](https://www.acmicpc.net/problem/1049)
-
-## 자료구조
-- [B13164](https://www.acmicpc.net/problem/13164) [G]
-- [B2493](https://www.acmicpc.net/problem/2493) [G]
-- [B7622](https://www.acmicpc.net/problem/7622) [G]
-- [B10799](https://www.acmicpc.net/problem/10799)
 
 ## 이분 탐색
 - [B2805](https://www.acmicpc.net/problem/2805)
