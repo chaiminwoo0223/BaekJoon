@@ -79,3 +79,4 @@
 - [B9372](https://www.acmicpc.net/problem/9372) [X]
 - [B2630](https://www.acmicpc.net/problem/2630) [X]
 - [B12931](https://www.acmicpc.net/problem/12931) [G]
+- [B1946](https://www.acmicpc.net/problem/1946)
