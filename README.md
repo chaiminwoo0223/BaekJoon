@@ -11,6 +11,9 @@
 - [B14888](https://www.acmicpc.net/problem/14888)
 - [B14889](https://www.acmicpc.net/problem/14889)
 
+# 다익스트라
+- [B1916](https://www.acmicpc.net/problem/1916) [G]
+
 ## 다이나믹 프로그래밍
 - [B9251](https://www.acmicpc.net/problem/9251) [G]
 - [B11660](https://www.acmicpc.net/problem/11660)
