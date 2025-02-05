@@ -4,6 +4,7 @@
 - [B9205](https://www.acmicpc.net/problem/9205) [G]
 - [B16928](https://www.acmicpc.net/problem/16928) [G]
 - [B11403](https://www.acmicpc.net/problem/11403)
+- [B1043](https://www.acmicpc.net/problem/1043) [G]
 
 ## DFS
 - [B1074](https://www.acmicpc.net/problem/1074) [G]
@@ -14,6 +15,7 @@
 
 # 다익스트라
 - [B1916](https://www.acmicpc.net/problem/1916) [G]
+- [B1753](https://www.acmicpc.net/problem/1753) [G]
 
 ## 다이나믹 프로그래밍
 - [B9251](https://www.acmicpc.net/problem/9251) [G]
