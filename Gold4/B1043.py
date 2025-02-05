@@ -21,7 +21,7 @@ def bfs():
 
         for party in parties:
             if person in party: # 진실을 아는 사람이 파티에 포함되면
-                for participant in party: # 핵심: 참가자를 탐색
+                for participant in party: # 참가자를 탐색
                     if visited[participant] == 0:
                         q.append(participant)
                         visited[participant] = 1
