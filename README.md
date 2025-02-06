@@ -88,3 +88,4 @@
 - [B12931](https://www.acmicpc.net/problem/12931) [G]
 - [B1946](https://www.acmicpc.net/problem/1946)
 - [B13549](https://www.acmicpc.net/problem/13549) [O]
+- [B12851](https://www.acmicpc.net/problem/12851) [G]
