@@ -14,6 +14,7 @@ def pathes(x):
     for _ in range(visited[x]+1):
         result.append(temp)
         temp = moved[temp]
+        
     print(*result[::-1])
 
 def bfs():
