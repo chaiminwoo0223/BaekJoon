@@ -7,10 +7,6 @@ n, k = map(int, sys.stdin.readline().split())
 q = deque([(n)])
 visited = [0] * 100001
 
-def calculator(next):
-    if 0 <= next < 100001 and visited[next] == 0:
-        q.append(next)
-
 def bfs():
     while q:
         x = q.popleft()
