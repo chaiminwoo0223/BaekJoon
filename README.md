@@ -3,7 +3,6 @@
 - [B9019](https://www.acmicpc.net/problem/9019) [G]
 - [B9205](https://www.acmicpc.net/problem/9205) [G]
 - [B16928](https://www.acmicpc.net/problem/16928) [G]
-- [B11403](https://www.acmicpc.net/problem/11403)
 - [B1043](https://www.acmicpc.net/problem/1043) [G]
 
 ## DFS
@@ -33,7 +32,6 @@
 - [B2193](https://www.acmicpc.net/problem/2193)
 - [B11057](https://www.acmicpc.net/problem/11057)
 - [B2167](https://www.acmicpc.net/problem/2167) [X]
-- [B11051](https://www.acmicpc.net/problem/11051) [O]
 - [B11052](https://www.acmicpc.net/problem/11052) [X]
 - [B11053](https://www.acmicpc.net/problem/11053) [X]
 - [B11722](https://www.acmicpc.net/problem/11722) [O]
