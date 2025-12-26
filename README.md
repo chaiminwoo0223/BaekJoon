@@ -74,17 +74,15 @@
 - [B1049](https://www.acmicpc.net/problem/1049)
 
 ## 이분 탐색
-- [B2805](https://www.acmicpc.net/problem/2805)
 - [B2110](https://www.acmicpc.net/problem/2110)
 - [B2512](https://www.acmicpc.net/problem/2512)
-- [B7795](https://www.acmicpc.net/problem/7795)
 
 ## 복습
-- [B12852](https://www.acmicpc.net/problem/12852) [X]
-- [B9372](https://www.acmicpc.net/problem/9372) [X]
+- [B13549](https://www.acmicpc.net/problem/13549) [O]
+- [B7795](https://www.acmicpc.net/problem/7795) [X]
 - [B2630](https://www.acmicpc.net/problem/2630) [X]
+- [B12852](https://www.acmicpc.net/problem/12852) [X]
 - [B12931](https://www.acmicpc.net/problem/12931) [G]
 - [B1946](https://www.acmicpc.net/problem/1946)
-- [B13549](https://www.acmicpc.net/problem/13549) [O]
 - [B12851](https://www.acmicpc.net/problem/12851) [G]
 - [B13913](https://www.acmicpc.net/problem/13913) [G]
