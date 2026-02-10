@@ -78,7 +78,6 @@
 - [B2512](https://www.acmicpc.net/problem/2512)
 
 ## 복습
-- [B13549](https://www.acmicpc.net/problem/13549) [O]
 - [B7795](https://www.acmicpc.net/problem/7795) [X]
 - [B2630](https://www.acmicpc.net/problem/2630) [X]
 - [B12852](https://www.acmicpc.net/problem/12852) [X]
