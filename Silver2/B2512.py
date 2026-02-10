@@ -1,24 +1,24 @@
 # 예산
-import sys
-
-n = int(sys.stdin.readline())
-budgets = sorted(map(int, sys.stdin.readline().rstrip().split()))
-m = int(sys.stdin.readline())
-start, end = 0, budgets[-1] # 이진 탐색을 위한 초깃값 설정
+n = int(input())
+pays = sorted(map(int, input().split()))
+m = int(input())
+start, end = 0, pays[-1] # 핵심
 
 while start <= end:
     mid = (start + end) // 2
-    total = 0
-    
-    for budget in budgets:
-        if budget < mid:
-            total += budget
+    t = 0
+
+    for pay in pays:
+        if pay < mid:
+            t += pay
         else:
-            total += mid
-        
-    if total <= m:
+            t += mid
+
+    if t <= m:
         start = mid + 1
     else:
         end = mid - 1
+
+    print(start, end, mid)
 
 print(end)
