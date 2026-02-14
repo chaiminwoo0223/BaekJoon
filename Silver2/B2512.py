@@ -14,9 +14,9 @@ while start <= end:
         else:
             result += mid
 
-    if result <= m:
-        start = mid + 1
-    else:
+    if result > m:
         end = mid - 1
+    else:
+        start = mid + 1
 
 print(end)
