@@ -51,7 +51,6 @@
 
 ## 자료구조
 - [B13164](https://www.acmicpc.net/problem/13164) [G]
-- [B2493](https://www.acmicpc.net/problem/2493) [G]]
 - [B10799](https://www.acmicpc.net/problem/10799)
 
 ## 브루트포스 알고리즘
@@ -72,10 +71,8 @@
 - [B2847](https://www.acmicpc.net/problem/2847)
 - [B1049](https://www.acmicpc.net/problem/1049)
 
-## 이분 탐색
-- [B2110](https://www.acmicpc.net/problem/2110)
-
 ## 복습
 - [B2630](https://www.acmicpc.net/problem/2630) [X]
 - [B12852](https://www.acmicpc.net/problem/12852) [X]
 - [B1946](https://www.acmicpc.net/problem/1946)
+- [B2110](https://www.acmicpc.net/problem/2110)
