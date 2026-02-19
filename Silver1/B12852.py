@@ -1,29 +1,35 @@
 # 1로 만들기 2
-# 다이나믹 프로그래밍
-# 최솟값
 from collections import deque
-import sys
 
-n = int(sys.stdin.readline())
-visited = [0] * (n+1) # 핵심
-q = deque()
+n = int(input())
+q = deque([n])
+visited = [-1] * 1000001
+moved = [0] * 1000001
 
-def bfs():
-    while q:
-        x, numbers = q.popleft()
-        numbers = numbers + [x] # 핵심
-        visited[x] = 1
+visited[n] = 0
+result = [1]
+t = 1
 
-        if x == 1:
-            print(len(numbers) - 1)
-            print(*numbers)
-            break
-        if x % 3 == 0 and visited[x // 3] == 0:
-            q.append([x // 3, numbers])
-        if x % 2 == 0 and visited[x // 2] == 0:
-            q.append([x // 2, numbers])
-        if x - 1 > 0 and visited[x - 1] == 0:
-            q.append([x - 1, numbers])
+while q:
+    x = q.popleft()
 
-q.append([n, []])
-bfs()
+    if x == 1:
+        print(visited[x])
+        break
+
+    for i in (3, 2):
+        if x % i == 0 and visited[x // i] == -1:
+            q.append(x // i)
+            visited[x // i] = visited[x] + 1
+            moved[x // i] = x
+
+    if visited[x - 1] == -1:
+        q.append(x - 1)
+        visited[x - 1] = visited[x] + 1
+        moved[x - 1] = x
+
+for _ in range(visited[1]):
+    t = moved[t]
+    result.append(t)
+
+print(*result[::-1])

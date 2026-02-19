@@ -73,6 +73,5 @@
 
 ## 복습
 - [B2630](https://www.acmicpc.net/problem/2630) [X]
-- [B12852](https://www.acmicpc.net/problem/12852) [X]
 - [B1946](https://www.acmicpc.net/problem/1946)
 - [B2110](https://www.acmicpc.net/problem/2110)
