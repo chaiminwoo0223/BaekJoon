@@ -49,9 +49,6 @@
 - [B14719](https://www.acmicpc.net/problem/14719) [G]
 - [B14503](https://www.acmicpc.net/problem/14503) [G]
 
-## 자료구조
-- [B10799](https://www.acmicpc.net/problem/10799)
-
 ## 브루트포스 알고리즘
 - [B30804](https://www.acmicpc.net/problem/30804)
 - [B6064](https://www.acmicpc.net/problem/6064)
@@ -71,6 +68,7 @@
 - [B1049](https://www.acmicpc.net/problem/1049)
 
 ## 복습
+- [B10799](https://www.acmicpc.net/problem/10799)
 - [B2630](https://www.acmicpc.net/problem/2630) [X]
 - [B1946](https://www.acmicpc.net/problem/1946)
 - [B2110](https://www.acmicpc.net/problem/2110)
