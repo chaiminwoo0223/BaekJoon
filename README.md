@@ -71,5 +71,4 @@
 - [B10799](https://www.acmicpc.net/problem/10799)
 - [B2630](https://www.acmicpc.net/problem/2630) [X]
 - [B1946](https://www.acmicpc.net/problem/1946)
-- [B2110](https://www.acmicpc.net/problem/2110)
 - [B13164](https://www.acmicpc.net/problem/13164) [G]
