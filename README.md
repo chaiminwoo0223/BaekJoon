@@ -37,7 +37,6 @@
 - [B11722](https://www.acmicpc.net/problem/11722) [O]
 - [B11055](https://www.acmicpc.net/problem/11055) [X]
 - [B1699](https://www.acmicpc.net/problem/1699) [X]
-- [B16953](https://www.acmicpc.net/problem/16953) [O]
 - [B9184](https://www.acmicpc.net/problem/9184)
 - [B15988](https://www.acmicpc.net/problem/15988)
 - [B12865](https://www.acmicpc.net/problem/12865) [G]
