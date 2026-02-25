@@ -13,7 +13,6 @@
 - [B14889](https://www.acmicpc.net/problem/14889)
 
 # 다익스트라
-- [B1916](https://www.acmicpc.net/problem/1916) [G]
 - [B1753](https://www.acmicpc.net/problem/1753) [G]
 
 ## 다이나믹 프로그래밍
@@ -68,3 +67,4 @@
 ## 복습
 - [B10799](https://www.acmicpc.net/problem/10799)
 - [B30804](https://www.acmicpc.net/problem/30804)
+- [B1916](https://www.acmicpc.net/problem/1916) [G]
