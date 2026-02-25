@@ -1,30 +1,27 @@
 # 과일 탕후루
 # 브루트포스 알고리즘
-# Counter
 from collections import Counter
 import sys
 
 input = sys.stdin.readline
 
 n = int(input())
-fruits = list(map(int, input().split()))
+s = list(map(int, input().split()))
 counter = Counter()
 start = 0
 result = 0
 
 for end in range(n):
-    counter[fruits[end]] += 1 # 핵심
+    counter[s[end]] += 1 # 핵심
 
-    print(counter)
+    while len(counter) > 2:
+        counter[s[start]] -= 1
 
-    while len(counter) > 2: # 핵심
-        counter[fruits[start]] -= 1
-
-        if counter[fruits[start]] == 0:
-            del counter[fruits[start]]
+        if counter[s[start]] == 0:
+            del counter[s[start]]  # 핵심
 
         start += 1
 
-    result = max(result, end + 1 - start)
+    result = max(result, end - start + 1)
 
 print(result)
