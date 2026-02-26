@@ -36,9 +36,6 @@
 - [B15988](https://www.acmicpc.net/problem/15988)
 - [B12865](https://www.acmicpc.net/problem/12865) [G]
 
-# 다익스트라
-- [B1753](https://www.acmicpc.net/problem/1753) [G]
-
 ## 구현
 - [B2504](https://www.acmicpc.net/problem/2504) [G]
 - [B5430](https://www.acmicpc.net/problem/5430) [G]
@@ -68,3 +65,4 @@
 - [B30804](https://www.acmicpc.net/problem/30804)
 - [B1916](https://www.acmicpc.net/problem/1916) [G]
 - [B1074](https://www.acmicpc.net/problem/1074) [G]
+- [B1753](https://www.acmicpc.net/problem/1753) [G]

@@ -4,21 +4,23 @@
 import sys
 import heapq
 
-v, e = map(int, sys.stdin.readline().split())
-k = int(sys.stdin.readline())
+input = sys.stdin.readline
+
+v, e = map(int, input().split())
+k = int(input())
 graph = [[] for _ in range(v+1)]
 
 for _ in range(e):
-    u, c, w = map(int, sys.stdin.readline().split())
-    graph[u].append([c, w])
+    u, n, w = map(int, input().split())
+    graph[u].append([n, w])
 
 # 최단 거리 초기화
-distance = [float('INF')] * (v+1)
+distance = [int(1e9)] * (v+1)
 distance[k] = 0
 
 # 힙 초기화
 heap = []
-heapq.heappush(heap, [0, k]) # 핵심: 거리를 기준으로 정렬
+heapq.heappush(heap, [0, k])
 
 while heap:
     cost, node = heapq.heappop(heap)
@@ -26,7 +28,7 @@ while heap:
     # 이미 처리한 노드라면 무시
     if cost > distance[node]:
         continue
-    
+
     # 인접 노드 탐색
     for next_node, next_cost in graph[node]:
         new_cost = cost + next_cost
@@ -37,7 +39,7 @@ while heap:
             heapq.heappush(heap, [new_cost, next_node])
 
 for i in range(1, v+1):
-    if str(distance[i]) == 'inf':
-        print('INF')
-    else:
+    if distance[i] != int(1e9):
         print(distance[i])
+    else:
+        print("INF")
