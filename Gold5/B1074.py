@@ -1,28 +1,30 @@
 # Z
 import sys
 
-n, r, c = map(int, sys.stdin.readline().split())
-count = 0
+input = sys.stdin.readline
 
-def dfs(m, x, y):
-    global count
+n, r, c = map(int, input().split())
+dx = [0, 0, 1, 1]
+dy = [0, 1, 0, 1]
+cnt = 0
 
-    if x > r or x+m <= r or y > c or y+m <= c:
-        count += m**2
+def dfs(x, y, m):
+    global cnt
+
+    if x > r or x+m <= r or y > c or y+m <= c: # 핵심
+        cnt += m**2
         return
     elif m > 2:
-        dfs(m // 2, x, y)
-        dfs(m // 2, x, y + m // 2)
-        dfs(m // 2, x + m // 2, y)
-        dfs(m // 2, x + m // 2, y + m // 2)
+        dfs(x, y, m // 2)
+        dfs(x, y + m // 2, m // 2)
+        dfs(x + m // 2, y, m // 2)
+        dfs(x + m // 2, y + m // 2, m // 2)
     else:
-        if x == r and y == c:
-            print(count)
-        elif x == r and y+1 == c:
-            print(count + 1)
-        elif x+1 == r and y == c:
-            print(count + 2)
-        else:
-            print(count + 3)
+        for i in range(4):
+            tx = x + dx[i]
+            ty = y + dy[i]
 
-dfs(2**n, 0, 0)
+            if tx == r and ty == c:
+                print(cnt + i)
+
+dfs(0, 0, 2**n)

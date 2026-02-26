@@ -6,14 +6,10 @@
 - [B1043](https://www.acmicpc.net/problem/1043) [G]
 
 ## DFS
-- [B1074](https://www.acmicpc.net/problem/1074) [G]
 - [B9663](https://www.acmicpc.net/problem/9663) [G]
 - [B17070](https://www.acmicpc.net/problem/17070) [G]
 - [B14888](https://www.acmicpc.net/problem/14888)
 - [B14889](https://www.acmicpc.net/problem/14889)
-
-# 다익스트라
-- [B1753](https://www.acmicpc.net/problem/1753) [G]
 
 ## 다이나믹 프로그래밍
 - [B9251](https://www.acmicpc.net/problem/9251) [G]
@@ -39,6 +35,9 @@
 - [B9184](https://www.acmicpc.net/problem/9184)
 - [B15988](https://www.acmicpc.net/problem/15988)
 - [B12865](https://www.acmicpc.net/problem/12865) [G]
+
+# 다익스트라
+- [B1753](https://www.acmicpc.net/problem/1753) [G]
 
 ## 구현
 - [B2504](https://www.acmicpc.net/problem/2504) [G]
@@ -68,3 +67,4 @@
 - [B10799](https://www.acmicpc.net/problem/10799)
 - [B30804](https://www.acmicpc.net/problem/30804)
 - [B1916](https://www.acmicpc.net/problem/1916) [G]
+- [B1074](https://www.acmicpc.net/problem/1074) [G]
