@@ -45,6 +45,7 @@
 
 ## 브루트포스 알고리즘
 - [B6064](https://www.acmicpc.net/problem/6064)
+- [B14500](https://www.acmicpc.net/problem/14500) [G]
 
 ## 그리디 알고리즘
 - [B13164](https://www.acmicpc.net/problem/13164) [G]
