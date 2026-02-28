@@ -42,6 +42,7 @@
 - [B3190](https://www.acmicpc.net/problem/3190) [G]
 - [B14719](https://www.acmicpc.net/problem/14719) [G]
 - [B14503](https://www.acmicpc.net/problem/14503) [G]
+- [B1019](https://www.acmicpc.net/problem/1019) [P]
 
 ## 브루트포스 알고리즘
 - [B6064](https://www.acmicpc.net/problem/6064)
