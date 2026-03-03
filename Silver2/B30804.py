@@ -8,20 +8,20 @@ input = sys.stdin.readline
 n = int(input())
 s = list(map(int, input().split()))
 counter = Counter()
-start = 0
+t = 0 # 핵심
 result = 0
 
-for end in range(n):
-    counter[s[end]] += 1 # 핵심
+for i in range(n):
+    counter[s[i]] += 1 # 핵심
 
     while len(counter) > 2:
-        counter[s[start]] -= 1
+        counter[s[t]] -= 1 # 핵심
 
-        if counter[s[start]] == 0:
-            del counter[s[start]]  # 핵심
+        if counter[s[t]] == 0:
+            del counter[s[t]]
 
-        start += 1
+        t += 1
 
-    result = max(result, end - start + 1)
+    result = max(result, i - t + 1)
 
 print(result)
