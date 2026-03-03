@@ -10,6 +10,7 @@
 - [B17070](https://www.acmicpc.net/problem/17070) [G]
 - [B14888](https://www.acmicpc.net/problem/14888)
 - [B14889](https://www.acmicpc.net/problem/14889)
+- [B11375](https://www.acmicpc.net/problem/11375) [P]
 
 ## 다이나믹 프로그래밍
 - [B9251](https://www.acmicpc.net/problem/9251) [G]
