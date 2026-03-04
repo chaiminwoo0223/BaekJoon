@@ -16,7 +16,7 @@ for i in range(len(x)):
 
         if x[i-1] == '(': # 레이저
             cnt += len(stack)
-        else: # 쇠막대기 끝 (중요)
+        else: # 쇠막대기 끝
             cnt += 1
 
 print(cnt)
