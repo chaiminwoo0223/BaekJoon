@@ -47,7 +47,6 @@
 
 ## 브루트포스 알고리즘
 - [B6064](https://www.acmicpc.net/problem/6064)
-- [B14500](https://www.acmicpc.net/problem/14500) [G]
 
 ## 그리디 알고리즘
 - [B13164](https://www.acmicpc.net/problem/13164) [G]
@@ -65,7 +64,6 @@
 
 ## 복습
 - [B10799](https://www.acmicpc.net/problem/10799)
-- [B30804](https://www.acmicpc.net/problem/30804)
 - [B1916](https://www.acmicpc.net/problem/1916) [G]
 - [B1074](https://www.acmicpc.net/problem/1074) [G]
 - [B1753](https://www.acmicpc.net/problem/1753) [G]
