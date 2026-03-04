@@ -1,17 +1,22 @@
 # 쇠막대기
+# + 1
 import sys
 
-s = sys.stdin.readline().rstrip()
-stack = []
-count = 0
+input = sys.stdin.readline()
 
-for i in range(len(s)):
-    if s[i] == "(":
-        stack.append(s[i])
+x = input.rstrip()
+cnt = 0
+stack = []
+
+for i in range(len(x)):
+    if x[i] == '(': # 쇠막대기 추가
+        stack.append(x[i])
     else:
         stack.pop()
-        if s[i-1] == "(":
-            count += len(stack)
-        else:
-            count += 1
-print(count)
+
+        if x[i-1] == '(': # 레이저
+            cnt += len(stack)
+        else: # 쇠막대기 끝 (중요)
+            cnt += 1
+
+print(cnt)
