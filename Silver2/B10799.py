@@ -1,22 +1,21 @@
 # 쇠막대기
-# + 1
 import sys
 
 input = sys.stdin.readline()
 
 x = input.rstrip()
-cnt = 0
 stack = []
+cnt = 0
 
 for i in range(len(x)):
-    if x[i] == '(': # 쇠막대기 추가
+    if x[i] == '(':
         stack.append(x[i])
     else:
         stack.pop()
 
-        if x[i-1] == '(': # 레이저
+        if x[i-1] == '(':
             cnt += len(stack)
-        else: # 쇠막대기 끝
+        else:
             cnt += 1
 
 print(cnt)
