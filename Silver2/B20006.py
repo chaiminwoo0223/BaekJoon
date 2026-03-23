@@ -17,7 +17,8 @@ for _ in range(p):
     for room in rooms:
         if len(room) == m:
             continue
-        elif room[0][0] - 10 <= l <= room[0][0] + 10:
+
+        if room[0][0] - 10 <= l <= room[0][0] + 10:
             room.append((l, n))
             break
     else:
