@@ -13,10 +13,7 @@
 - [B11375](https://www.acmicpc.net/problem/11375) [P]
 
 ## 다이나믹 프로그래밍
-- [B2156](https://www.acmicpc.net/problem/2156)
-- [B11722](https://www.acmicpc.net/problem/11722) [O]
 - [B9251](https://www.acmicpc.net/problem/9251) [G]
-- [B11660](https://www.acmicpc.net/problem/11660)
 - [B9465](https://www.acmicpc.net/problem/9465)
 - [B1912](https://www.acmicpc.net/problem/1912)
 - [B2579](https://www.acmicpc.net/problem/2579)
@@ -65,5 +62,9 @@
 
 ## 복습
 - [B1074](https://www.acmicpc.net/problem/1074) [G]
+- [B2156](https://www.acmicpc.net/problem/2156)
+- [B11722](https://www.acmicpc.net/problem/11722) [X]
+- [B11660](https://www.acmicpc.net/problem/11660) [X]
+
 - [B1916](https://www.acmicpc.net/problem/1916) [G]
 - [B1753](https://www.acmicpc.net/problem/1753) [G]
