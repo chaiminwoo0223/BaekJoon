@@ -1,30 +1,32 @@
 # Z
+# 분할정복
 import sys
 
 input = sys.stdin.readline
 
 n, r, c = map(int, input().split())
-dx = [0, 0, 1, 1]
-dy = [0, 1, 0, 1]
 cnt = 0
 
-def dfs(x, y, m):
+def dfs(x, y, z):
     global cnt
 
-    if x > r or x+m <= r or y > c or y+m <= c: # 핵심
-        cnt += m**2
+    if not (x <= r < x + z and y <= c < y + z): # 핵심
+        cnt += z * z
         return
-    elif m > 2:
-        dfs(x, y, m // 2)
-        dfs(x, y + m // 2, m // 2)
-        dfs(x + m // 2, y, m // 2)
-        dfs(x + m // 2, y + m // 2, m // 2)
-    else:
-        for i in range(4):
-            tx = x + dx[i]
-            ty = y + dy[i]
+    elif z > 2:
+        t = z // 2
 
-            if tx == r and ty == c:
-                print(cnt + i)
+        dfs(x, y, t)
+        dfs(x, y + t, t)
+        dfs(x + t, y, t)
+        dfs(x + t, y + t, t)
+    else:
+        for i in range(x, x+2):
+            for j in range(y, y+2):
+                if i == r and j == c:
+                    print(cnt)
+                    return
+                else:
+                    cnt += 1
 
 dfs(0, 0, 2**n)
