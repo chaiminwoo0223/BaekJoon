@@ -26,7 +26,6 @@
 - [B17626](https://www.acmicpc.net/problem/17626)
 - [B2193](https://www.acmicpc.net/problem/2193)
 - [B11057](https://www.acmicpc.net/problem/11057)
-- [B2167](https://www.acmicpc.net/problem/2167) [X]
 - [B11052](https://www.acmicpc.net/problem/11052) [X]
 - [B1699](https://www.acmicpc.net/problem/1699) [X]
 - [B9184](https://www.acmicpc.net/problem/9184)
