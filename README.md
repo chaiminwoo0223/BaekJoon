@@ -27,7 +27,6 @@
 - [B2193](https://www.acmicpc.net/problem/2193)
 - [B11057](https://www.acmicpc.net/problem/11057)
 - [B11052](https://www.acmicpc.net/problem/11052) [X]
-- [B1699](https://www.acmicpc.net/problem/1699) [X]
 - [B9184](https://www.acmicpc.net/problem/9184)
 - [B15988](https://www.acmicpc.net/problem/15988)
 - [B12865](https://www.acmicpc.net/problem/12865) [G]
@@ -62,6 +61,7 @@
 - [B2156](https://www.acmicpc.net/problem/2156)
 - [B10844](https://www.acmicpc.net/problem/10844) [X]
 - [B1780](https://www.acmicpc.net/problem/1780) [X]
+- [B1699](https://www.acmicpc.net/problem/1699) [X]
 
 - [B1916](https://www.acmicpc.net/problem/1916) [G]
 - [B1753](https://www.acmicpc.net/problem/1753) [G]
