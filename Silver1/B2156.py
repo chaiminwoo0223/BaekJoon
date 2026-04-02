@@ -5,15 +5,15 @@ import sys
 input = sys.stdin.readline
 
 n = int(input())
-x = [0] + [int(input()) for _ in range(n)]
+wines = [int(input()) for _ in range(n)]
 dp = [0] * (n+1)
+dp[1] = wines[0]
 
-dp[1] = x[1]
-
-if n > 1:
-    dp[2] = x[1] + x[2]
+if n >= 2:
+    dp[2] = wines[0] + wines[1]
 
 for i in range(3, n+1):
-    dp[i] = max(dp[i-2] + x[i], dp[i-3] + x[i-1] + x[i], dp[i-1])
+    dp[i] = max(dp[i-1], dp[i-2] + wines[i-1], dp[i-3] + wines[i-2] + wines[i-1])
 
 print(max(dp))
+
