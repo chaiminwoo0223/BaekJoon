@@ -39,6 +39,9 @@
 - [B14503](https://www.acmicpc.net/problem/14503) [G]
 - [B1019](https://www.acmicpc.net/problem/1019) [P]
 
+## 시뮬레이션
+- [B16236](https://www.acmicpc.net/problem/16236) [G]
+
 ## 브루트포스 알고리즘
 - [B6064](https://www.acmicpc.net/problem/6064)
 
