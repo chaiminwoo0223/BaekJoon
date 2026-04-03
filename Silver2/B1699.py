@@ -10,8 +10,7 @@ for i in range(1, n+1):
     for j in range(1, i):
         if j**2 > i:
             break
+        if dp[i] > dp[i - j ** 2] + 1:
+            dp[i] = dp[i - j ** 2] + 1
 
-        if dp[i] > dp[i - j**2] + 1: # 핵심
-            dp[i] = dp[i - j**2] + 1
-
-print(dp[n])
+print(dp[-1])

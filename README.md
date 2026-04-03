@@ -30,6 +30,7 @@
 - [B9184](https://www.acmicpc.net/problem/9184)
 - [B15988](https://www.acmicpc.net/problem/15988)
 - [B12865](https://www.acmicpc.net/problem/12865) [G]
+- [B10844](https://www.acmicpc.net/problem/10844) [X]
 
 ## 구현
 - [B2504](https://www.acmicpc.net/problem/2504) [G]
@@ -60,10 +61,9 @@
 - [B1049](https://www.acmicpc.net/problem/1049)
 
 ## 복습
+- [B1916](https://www.acmicpc.net/problem/1916) [G]
+- [B1753](https://www.acmicpc.net/problem/1753) [G]
 - [B1074](https://www.acmicpc.net/problem/1074) [G]
-- [B10844](https://www.acmicpc.net/problem/10844) [X]
 - [B1780](https://www.acmicpc.net/problem/1780) [X]
 - [B1699](https://www.acmicpc.net/problem/1699) [X]
 
-- [B1916](https://www.acmicpc.net/problem/1916) [G]
-- [B1753](https://www.acmicpc.net/problem/1753) [G]
