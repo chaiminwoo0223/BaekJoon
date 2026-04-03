@@ -1,45 +1,39 @@
 # 최단경로
-# 다익스트라 알고리즘: 그래프에서 한 정점(시작점)으로부터 다른 모든 정점까지의 최단 경로
-# heapq는 첫 번째 원소를 기준으로 정렬
-import sys
+# 다익스트라 알고리즘
+# Python의 heapq는 리스트나 튜플이 들어올 때, 첫 번째 요소를 기준으로 최소 힙을 구성합니다.
 import heapq
+import sys
 
 input = sys.stdin.readline
 
-v, e = map(int, input().split())
-k = int(input())
-graph = [[] for _ in range(v+1)]
+V, E = map(int, input().split())
+K = int(input())
+graph = [[] for _ in range(V+1)]
 
-for _ in range(e):
-    u, n, w = map(int, input().split())
-    graph[u].append([n, w])
+for _ in range(E):
+    u, v, w = map(int, input().split())
+    graph[u].append([v, w])
 
-# 최단 거리 초기화
-distance = [int(1e9)] * (v+1)
-distance[k] = 0
+queue = []
+result = [int(1e9)] * (V+1)
+heapq.heappush(queue, [0, K])
+result[K] = 0
 
-# 힙 초기화
-heap = []
-heapq.heappush(heap, [0, k])
+while queue:
+    cost, node = heapq.heappop(queue)
 
-while heap:
-    cost, node = heapq.heappop(heap)
-
-    # 이미 처리한 노드라면 무시
-    if cost > distance[node]:
+    if cost > result[node]:
         continue
 
-    # 인접 노드 탐색
-    for next_node, next_cost in graph[node]:
+    for next_node, next_cost in graph[node]: # [node, cost]
         new_cost = cost + next_cost
 
-        # 업데이트
-        if new_cost < distance[next_node]:
-            distance[next_node] = new_cost
-            heapq.heappush(heap, [new_cost, next_node])
+        if new_cost < result[next_node]:
+            result[next_node] = new_cost
+            heapq.heappush(queue, [new_cost, next_node])
 
-for i in range(1, v+1):
-    if distance[i] != int(1e9):
-        print(distance[i])
+for i in range(1, V+1):
+    if result[i] != int(1e9):
+        print(result[i])
     else:
         print("INF")
