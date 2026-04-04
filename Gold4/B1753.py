@@ -14,9 +14,12 @@ for _ in range(E):
     u, v, w = map(int, input().split())
     graph[u].append([v, w])
 
+# 우선순위 큐
 queue = []
-result = [int(1e9)] * (V+1)
 heapq.heappush(queue, [0, K])
+
+# 거리 초기화
+result = [float('inf')] * (V+1)
 result[K] = 0
 
 while queue:
@@ -25,7 +28,7 @@ while queue:
     if cost > result[node]:
         continue
 
-    for next_node, next_cost in graph[node]: # [node, cost]
+    for next_node, next_cost in graph[node]:
         new_cost = cost + next_cost
 
         if new_cost < result[next_node]:
@@ -33,7 +36,7 @@ while queue:
             heapq.heappush(queue, [new_cost, next_node])
 
 for i in range(1, V+1):
-    if result[i] != int(1e9):
+    if result[i] != float('inf'):
         print(result[i])
     else:
         print("INF")

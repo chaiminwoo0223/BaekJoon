@@ -62,6 +62,5 @@
 - [B1049](https://www.acmicpc.net/problem/1049)
 
 ## 복습
-- [B1753](https://www.acmicpc.net/problem/1753) [G]
 - [B1520](https://www.acmicpc.net/problem/1520) [G]
 
