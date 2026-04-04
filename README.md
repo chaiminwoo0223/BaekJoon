@@ -31,7 +31,8 @@
 - [B15988](https://www.acmicpc.net/problem/15988)
 - [B12865](https://www.acmicpc.net/problem/12865) [G]
 - [B10844](https://www.acmicpc.net/problem/10844) [X]
-- [B12015] (https://www.acmicpc.net/problem/12015) [G]
+- [B12015](https://www.acmicpc.net/problem/12015) [G]
+- [B12738](https://www.acmicpc.net/problem/12738) [G]
 
 ## 구현
 - [B2504](https://www.acmicpc.net/problem/2504) [G]
