@@ -37,6 +37,7 @@
 - [B10844](https://www.acmicpc.net/problem/10844) [X]
 - [B12015](https://www.acmicpc.net/problem/12015) [G]
 - [B12738](https://www.acmicpc.net/problem/12738) [G]
+- [B14003](https://www.acmicpc.net/problem/14003) [P]
 
 ## 구현
 - [B2504](https://www.acmicpc.net/problem/2504) [G]
@@ -67,5 +68,6 @@
 - [B1049](https://www.acmicpc.net/problem/1049)
 
 ## 복습
+- [B1918](https://www.acmicpc.net/problem/1918) [G]
 
 
