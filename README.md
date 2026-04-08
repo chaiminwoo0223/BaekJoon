@@ -15,6 +15,7 @@
 
 # 최단경로
 - [B1238](https://www.acmicpc.net/problem/1238) [G]
+- [B1865](https://www.acmicpc.net/problem/1865) [G]
 
 ## 다이나믹 프로그래밍
 - [B9251](https://www.acmicpc.net/problem/9251) [G]
