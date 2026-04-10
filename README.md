@@ -11,6 +11,7 @@
 - [B14888](https://www.acmicpc.net/problem/14888)
 - [B14889](https://www.acmicpc.net/problem/14889)
 - [B1520](https://www.acmicpc.net/problem/1520) [G]
+- [B1967](https://www.acmicpc.net/problem/1967) [G]
 - [B11375](https://www.acmicpc.net/problem/11375) [P]
 
 # 최단경로
