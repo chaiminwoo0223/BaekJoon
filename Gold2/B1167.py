@@ -1,5 +1,8 @@
 # 트리의 지름
+# 숨겨진 조건: 루트 노드는 항상 1이다.
 import sys
+
+sys.setrecursionlimit(10**6)
 
 input = sys.stdin.readline
 
@@ -22,12 +25,15 @@ def dfs(n, distance):
         if visited[next_node] == -1:
             dfs(next_node, distance + next_distance)
 
-result = []
+# 1) 가장 먼 지점을 먼저 찾기
+visited = [-1] * (V+1)
+visited[1] = 0
+dfs(1, 0)
 
-for i in range(1, V+1):
-    visited = [-1] * (V+1)
-    dfs(i, 0)
+# 2) 가장 먼 지점을 다시 찾기
+x = visited.index(max(visited))
+visited = [-1] * (V+1)
+visited[x] = 0
+dfs(x, 0)
 
-    result.append(max(visited))
-
-print(max(result))
+print(max(visited))
